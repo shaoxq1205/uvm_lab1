@@ -1,0 +1,17 @@
+<COMPILE_SPEC name = "ovc_qgpio_palladium" spec_ver = "2.0">
+
+  <REQUIRES>
+    ovm
+    qovm_addons
+    ovc_qgpio_dpi_palladium
+  </REQUIRES>
+  <SOURCE>
+    <FILE name = "qgpio_pkg.sv"/>
+  </SOURCE>
+  <TASK>
+    <TOOL>
+       <OPTION name = "+incdir+$(CDIR)/."/>
+       <OPTION name = "+incdir+$(CDIR)/../sequence_lib/src"/>
+    </TOOL>
+  </TASK>
+</COMPILE_SPEC>

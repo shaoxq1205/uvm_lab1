@@ -1,0 +1,29 @@
+ ****************************************************
+ * SESSION INFO
+ ****************************************************
+ * QVMR: 2.10.2
+ * Flow: tbx
+ * Goals: sim
+ * Flags: 
+ * Platform: LINUX64
+ * Host: vl-xiaoshao-gridsdcb
+ * Process ID: 11277
+ * Makefile: /usr2/xiaoshao/uvm_training_labs/lab11/lab1/verif/tool_setup/qvmr/Makefile
+ * Session started: Mon Mar 13 10:58:57 PDT 2017
+ * Host Uptime:  10:58am  up 9 days 22:48,  2 users,  load average: 0.06, 0.12, 0.08
+ ****************************************************
+ * TOOL INFO
+ ****************************************************
+ * Modelsim: 6.6g ($MODELTECH_VERSION)
+ * DVT: 3.0.6.1 (DEFAULT)
+ ****************************************************
+ 
+[qbar.mk] Warning: DVT_VERSION environment variable definition detected from improper origin: undefined.  DVT_VERSION should be defined in the environment prior to invoking qbar.
+
+ ****************************************************
+[Mon Mar 13 10:59:16 PDT 2017] Make: Compiling DPI-C file: /usr2/xiaoshao/uvm_training_labs/lab11/lab1/libs/verification/quvm/release/src/dpi/uvm_dpi.cc ...
+[Mon Mar 13 10:59:16 PDT 2017] Make: cd /usr2/xiaoshao/uvm_training_labs/lab11/lab1/unmanaged/qvmr/xiaoshao/simland/standalone/default/misc/LINUX64/6.6g && /pkg/qvmr/bin/Modelsim_gcc -qc_standalone        -DQUESTA -c -fPIC /usr2/xiaoshao/uvm_training_labs/lab11/lab1/libs/verification/quvm/release/src/dpi/uvm_dpi.cc -Bsymbolic -I/pkg/qct/software/modeltech/6.6g/include -o /usr2/xiaoshao/uvm_training_labs/lab11/lab1/unmanaged/qvmr/xiaoshao/simland/standalone/default/misc/LINUX64/6.6g/uvm_dpi.o
+
+[Mon Mar 13 10:59:16 PDT 2017] Make: Link DPI library ...
+[Mon Mar 13 10:59:16 PDT 2017] Make: cd /usr2/xiaoshao/uvm_training_labs/lab11/lab1/unmanaged/qvmr/xiaoshao/simland/standalone/default/misc/LINUX64/6.6g && /pkg/qvmr/bin/Modelsim_g++ -qc_standalone         /usr2/xiaoshao/uvm_training_labs/lab11/lab1/unmanaged/qvmr/xiaoshao/simland/standalone/default/misc/LINUX64/6.6g/uvm_dpi.o -fPIC -shared -Bsymbolic -o /usr2/xiaoshao/uvm_training_labs/lab11/lab1/unmanaged/qvmr/xiaoshao/simland/standalone/default/misc/LINUX64/6.6g/dpi_lib.so
+

@@ -1,0 +1,665 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/usr2/xiaoshao/uvm_training_labs/lab11/lab1/unmanaged/qvmr/xiaoshao/libs/default/hdl/modelsim/6.6g/LINUX64
+vaxi_rd_bfr
+Z1 Mx1 6 sv_std 3 std
+Z2 DXx6 sv_std 3 std 0 22 WnQ=;W1X^o9K1PIQTgInR3
+Z3 IW@2=A`l:?Zf1H8l6:K4b40
+Z4 V@CkH<]WnoA<aCWhB=U_>X2
+Z5 !s105 XlRngTransactor_sv_unit
+S1
+Z6 d/usr2/xiaoshao/uvm_training_labs/lab11/lab1/unmanaged/qvmr/xiaoshao/libs/default/hdl/modelsim/6.6g/LINUX64
+Z7 w1288116153
+Z8 8/prj/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/qcom_spec/hdl/../../xl_vip/lib/hdl_veloce/SoftCores/AxiSlaveCore/vsmu5505.sv
+Z9 F/prj/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/qcom_spec/hdl/../../xl_vip/lib/hdl_veloce/SoftCores/AxiSlaveCore/vsmu5505.sv
+Z10 L0 483
+Z11 OL;L;6.6g;45
+r1
+31
+Z12 !s102 -cover bcsetf
+Z13 o-mfcu -sv -cover bcsetf -work hdl_work -nocovercells
+Z14 !s92 +incdir+/usr2/xiaoshao/uvm_training_labs/lab11/lab1/libs/verification/quvm/release/src -mfcu -sv -cover bcsetf +define+TBX_MODE +define+TBX_WORKAROUND +define+TBX_XL_SIM_MODE -work hdl_work -nocovercells
+Z15 !s100 E0WB?3dol^U>2kE:=c9ZB1
+!s85 0
+vaxi_wr_bfr
+R1
+R2
+Z16 ID5K8Q2LCVC6E2R[VTg6h71
+Z17 V28TGgNJBIUYUI1L@8JcA60
+R5
+S1
+R6
+R7
+R8
+R9
+Z18 L0 1846
+R11
+r1
+31
+R12
+R13
+R14
+Z19 !s100 gf<cWGmAJ`F4D7b7=hVJj3
+!s85 0
+vchannel_fifo
+R1
+R2
+Z20 I?L1=oiYoEhDS@c4JE3L7V3
+Z21 VCf>l=DQhhU<FVN;X:>?Qi1
+R5
+S1
+R6
+R7
+R8
+R9
+L0 37
+R11
+r1
+31
+R12
+R13
+R14
+Z22 !s100 L_56;_Yz8P:RXOe[AA<D11
+!s85 0
+vClkRstDriver
+R1
+R2
+!s100 4ffW^QEaj8dRIcA0LV`CK0
+InoKCdc:Mejh?aH;zSfZS50
+VzEBQD6VE37ckQl]1P@?]42
+Z23 !s105 pcounter_sv_unit
+S1
+R6
+Z24 w1308926805
+Z25 8/usr2/xiaoshao/uvm_training_labs/lab11/lab1/pcounter/src/clock_bfm.sv
+Z26 F/usr2/xiaoshao/uvm_training_labs/lab11/lab1/pcounter/src/clock_bfm.sv
+L0 107
+R11
+r1
+!s85 0
+31
+R12
+R13
+Z27 !s92 +incdir+/usr2/xiaoshao/uvm_training_labs/lab11/lab1/libs/verification/quvm/release/src -mfcu -sv -cover bcsetf -work hdl_work -nocovercells
+n@clk@rst@driver
+vclock_bfm
+R1
+R2
+!s100 H>16JfZ]MaMfOkmiPUa?=1
+IoUG^?a<VBWV]anRn1hInE3
+VS<nSOH_9FkRk@03HgGCz[1
+R23
+S1
+R6
+R24
+R25
+R26
+L0 589
+R11
+r1
+!s85 0
+31
+R12
+R13
+R27
+vgenerateAddressAndByteEnables
+R1
+R2
+Z28 IBPXD@WGMzejYfbz2QbVJN2
+Z29 VfWXm<BoWB`NkNb7;>?G843
+R5
+S1
+R6
+R7
+R8
+R9
+Z30 L0 1221
+R11
+r1
+31
+R12
+R13
+R14
+Z31 ngenerate@address@and@byte@enables
+Z32 !s100 Q39?T6>z_j7C>Ln;I:18B3
+!s85 0
+vpcounter
+R1
+R2
+!s100 hSGGY5`2b3<;_F9D]hjfg3
+Iz:9Y_dA_Qah98IHlVSQge2
+V:?gjQP;MF8bWzd<:JaHZ@1
+R23
+S1
+R6
+w1309038329
+8/usr2/xiaoshao/uvm_training_labs/lab11/lab1/pcounter/src/pcounter.sv
+F/usr2/xiaoshao/uvm_training_labs/lab11/lab1/pcounter/src/pcounter.sv
+L0 9
+R11
+r1
+!s85 0
+31
+R12
+R13
+R27
+vpcounter_wrapper
+R1
+R2
+!s100 eL9Nj?EOemj9aI4h3EAb?0
+I9W2H^B;Ofj^69bUKdVYom0
+V68f4RXVX`C5BIEA]0kci93
+R23
+S1
+R6
+w1309038307
+8/usr2/xiaoshao/uvm_training_labs/lab11/lab1/pcounter/src/pcounter_wrapper.sv
+F/usr2/xiaoshao/uvm_training_labs/lab11/lab1/pcounter/src/pcounter_wrapper.sv
+L0 8
+R11
+r1
+!s85 0
+31
+R12
+R13
+R27
+vProgClkDriver
+R1
+R2
+!s100 `PS`Kk0Tm24FgGP2VSb0A1
+IF7k17Ba8Q4aa2H=5PNH:e1
+V@>0Y:`mUH?f]M?<K?kNV60
+R23
+S1
+R6
+R24
+R25
+R26
+L0 386
+R11
+r1
+!s85 0
+31
+R12
+R13
+R27
+n@prog@clk@driver
+vProgClkDriver_INIT0_WithInitialDelay
+R1
+R2
+!s100 ^6K9ieEl@LcRSGHKn;B8n2
+IXQFNZcWAVf1W1Wm]aFePa2
+VIaU;:ZZF>]KNbkSc_YicI3
+R23
+S1
+R6
+R24
+R25
+R26
+L0 199
+R11
+r1
+!s85 0
+31
+R12
+R13
+R27
+n@prog@clk@driver_@i@n@i@t0_@with@initial@delay
+vProgClkDriver_INIT0_WithoutInitialDelay
+R1
+R2
+!s100 ?iC6[I@93IPm5N<`L0cmZ3
+InU@4:9ZQAGV_NLfLP:i4Q0
+Vb_<iQNJfRU7izDAl::i`e2
+R23
+S1
+R6
+R24
+R25
+R26
+L0 292
+R11
+r1
+!s85 0
+31
+R12
+R13
+R27
+n@prog@clk@driver_@i@n@i@t0_@without@initial@delay
+vProgClockGater
+R1
+R2
+!s100 A78^;RLM460fVeXEffL`M3
+I;=b7c[Si`dJ]FX9<m3^2X3
+VSHea4TPB?ij`iOAmkXHT=2
+R23
+S1
+R6
+R24
+R25
+R26
+L0 472
+R11
+r1
+!s85 0
+31
+R12
+R13
+R27
+n@prog@clock@gater
+vrd_arbmux
+R1
+R2
+Z33 I_Zn:RX`SiRzg>c^C:a_z:0
+Z34 V1V<gNn9YZg2B?eG2J^8GK1
+R5
+S1
+R6
+R7
+R8
+R9
+Z35 L0 799
+R11
+r1
+31
+R12
+R13
+R14
+Z36 !s100 T5ZWRMcGcLgX443b`<RT11
+!s85 0
+vsram_rstatem
+R1
+R2
+Z37 ITzjAz;cH3F4>zmRnMe5Li3
+Z38 VT4Ob`SN7?6<0EUDjBbehY0
+R5
+S1
+R6
+R7
+R8
+R9
+Z39 L0 177
+R11
+r1
+31
+R12
+R13
+R14
+Z40 !s100 oY@6BINlG>960kU8lK4Ae2
+!s85 0
+vsram_wstatem
+R1
+R2
+Z41 IYjPoCBS9kCPn8?o@;1MjN1
+Z42 VnJXC;?F<Z[B?li6FJkm]n3
+R5
+S1
+R6
+R7
+R8
+R9
+Z43 L0 1368
+R11
+r1
+31
+R12
+R13
+R14
+Z44 !s100 B=KzDf:YcHA9cCkZ@3ec@1
+!s85 0
+vtest_bench
+R1
+R2
+!s100 R5E;8_mGWPk[8n=YH6GM82
+IH[QXFVIUo00mJ8]?9MZYB2
+VEJNK5ZO7TWUP1egUA9^TR1
+R23
+S1
+R6
+w1309038482
+8/usr2/xiaoshao/uvm_training_labs/lab11/lab1/pcounter/src/test_bench.sv
+F/usr2/xiaoshao/uvm_training_labs/lab11/lab1/pcounter/src/test_bench.sv
+L0 5
+R11
+r1
+!s85 0
+31
+R12
+R13
+R27
+vvsms5505
+R1
+R2
+Z45 I;07?gZHhcYoAjZO4CbEP@2
+Z46 VG2ZLKTRIeh1m1cERScLWL2
+R5
+S1
+R6
+R7
+Z47 8/prj/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/qcom_spec/hdl/../../xl_vip/lib/hdl_veloce/SoftCores/AxiSlaveCore/vsms5505.sv
+Z48 F/prj/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/qcom_spec/hdl/../../xl_vip/lib/hdl_veloce/SoftCores/AxiSlaveCore/vsms5505.sv
+L0 30
+R11
+r1
+31
+R12
+R13
+R14
+Z49 !s100 n5SjF6X@;nJaH=jGljD0c3
+!s85 0
+vwr_arbmux
+R1
+R2
+Z50 IC?kl9PKn5FLnH9z6lLS9;1
+Z51 V_JT_b7Z<Qh4J1eIzF=C022
+R5
+S1
+R6
+R7
+R8
+R9
+Z52 L0 2204
+R11
+r1
+31
+R12
+R13
+R14
+Z53 !s100 BM[5W`[g>4YK9BQWUX@_F1
+!s85 0
+vXlAhbMasterTransactor
+R1
+R2
+Z54 IkYljUXJWUTSAUbNB@<ONe1
+Z55 V5Rn;2VKV6eNc6nUj::>e:1
+R5
+S1
+R6
+Z56 w1287759137
+Z57 8/prj/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/qcom_spec/hdl/../../xl_vip/lib/hdl_veloce/XlAhbMasterTransactor.sv
+Z58 F/prj/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/qcom_spec/hdl/../../xl_vip/lib/hdl_veloce/XlAhbMasterTransactor.sv
+L0 24
+R11
+r1
+31
+R12
+R13
+R14
+Z59 n@xl@ahb@master@transactor
+Z60 !s100 >8_LY@>H]<UBh@XAMcO3V3
+!s85 0
+vXlAhbMonitor
+R1
+R2
+Z61 IVhzj?2e84O5Mo>NhEb2JN3
+Z62 V::QWMjIP4RNoMnIno3?:O1
+R5
+S1
+R6
+Z63 w1284138778
+Z64 8/prj/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/qcom_spec/hdl/../../xl_vip/lib/hdl_veloce/XlAhbMonitor.sv
+Z65 F/prj/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/qcom_spec/hdl/../../xl_vip/lib/hdl_veloce/XlAhbMonitor.sv
+L0 36
+R11
+r1
+31
+R12
+R13
+R14
+Z66 n@xl@ahb@monitor
+Z67 !s100 MS;l>oK3_O`BRNAlg^M[d1
+!s85 0
+vXlAhbSlaveTransactor
+R1
+R2
+Z68 IP@8MUH2bF6^F4=6X[69^K2
+Z69 VfoX^D1PF6z`<[8?aooGDG2
+R5
+S1
+R6
+R63
+Z70 8/prj/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/qcom_spec/hdl/../../xl_vip/lib/hdl_veloce/XlAhbSlaveTransactor.sv
+Z71 F/prj/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/qcom_spec/hdl/../../xl_vip/lib/hdl_veloce/XlAhbSlaveTransactor.sv
+L0 36
+R11
+r1
+31
+R12
+R13
+R14
+Z72 n@xl@ahb@slave@transactor
+Z73 !s100 XUMK:ZiSSSoiK70cYSnfd0
+!s85 0
+vXlAxiMasterTransactor
+R1
+R2
+Z74 IGMii]i9VeMPFaKI?L^4OA3
+Z75 V?l>Zc;Z4z5`3Q6SXdCzCn0
+R5
+S1
+R6
+Z76 w1288121511
+Z77 8/prj/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/qcom_spec/hdl/../../xl_vip/lib/hdl_veloce/XlAxiMasterTransactor.sv
+Z78 F/prj/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/qcom_spec/hdl/../../xl_vip/lib/hdl_veloce/XlAxiMasterTransactor.sv
+L0 24
+R11
+r1
+31
+R12
+R13
+R14
+Z79 n@xl@axi@master@transactor
+Z80 !s100 mTdWV:M[=KW26W3UWJkEP0
+!s85 0
+vXlAxiR0p0MasterTransactor
+R1
+R2
+Z81 I1FL;hNi[oC8ooE]Y0cm;O3
+Z82 VeBGRE^Zk@WlTbbPe>Y5j21
+R5
+S1
+R6
+Z83 w1254228007
+Z84 8/prj/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/qcom_spec/hdl/../../xl_vip/lib/hdl_veloce/XlAxiR0p0MasterTransactor.sv
+Z85 F/prj/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/qcom_spec/hdl/../../xl_vip/lib/hdl_veloce/XlAxiR0p0MasterTransactor.sv
+L0 24
+R11
+r1
+31
+R12
+R13
+R14
+Z86 n@xl@axi@r0p0@master@transactor
+Z87 !s100 8?CHd^I8XlAQ^7D`EIEfJ0
+!s85 0
+vXlAxiR0p0SlaveTransactor
+R1
+R2
+Z88 I1T7SKVkh3mG5G3KD9E^Qo1
+Z89 V:MO4Um8NjPJ70YM2h=0eO2
+R5
+S1
+R6
+R83
+Z90 8/prj/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/qcom_spec/hdl/../../xl_vip/lib/hdl_veloce/XlAxiR0p0SlaveTransactor.sv
+Z91 F/prj/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/qcom_spec/hdl/../../xl_vip/lib/hdl_veloce/XlAxiR0p0SlaveTransactor.sv
+L0 26
+R11
+r1
+31
+R12
+R13
+R14
+Z92 n@xl@axi@r0p0@slave@transactor
+Z93 !s100 A>T37<HcUHR>k6z?:6:V70
+!s85 0
+vXlAxiSlaveTransactor
+R1
+R2
+Z94 IKdZmAe^>;]cB2JM[Q3mS[3
+Z95 VBgMlW9`:]DA0UUAY6]ZHK1
+R5
+S1
+R6
+Z96 w1288269922
+Z97 8/prj/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/qcom_spec/hdl/../../xl_vip/lib/hdl_veloce/XlAxiSlaveTransactor.sv
+Z98 F/prj/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/qcom_spec/hdl/../../xl_vip/lib/hdl_veloce/XlAxiSlaveTransactor.sv
+L0 26
+R11
+r1
+31
+R12
+R13
+R14
+Z99 n@xl@axi@slave@transactor
+Z100 !s100 3KGm]2hV<:2B;Hz3AUCjo1
+!s85 0
+vXlClockAdvancer
+R1
+R2
+Z101 IOiBM75]o7F1aFdF<k3AF`3
+Z102 VSJZ;8YW?g4dG>SY:D8bjG0
+R5
+S1
+R6
+Z103 w1271990175
+Z104 8/prj/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/qcom_spec/hdl/../../xl_vip/lib/XlClockAdvancer.sv
+Z105 F/prj/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/qcom_spec/hdl/../../xl_vip/lib/XlClockAdvancer.sv
+L0 30
+R11
+r1
+31
+R12
+R13
+R14
+Z106 n@xl@clock@advancer
+Z107 !s100 dSY03>KgznGD_?B9PlN]11
+!s85 0
+vXlEdgeDetector
+R1
+R2
+Z108 IP0RN01hV8acJl4]2>W@=V2
+Z109 V8m8MZg9=zdMMH>QFggI]A0
+R5
+S1
+R6
+Z110 w1271438076
+Z111 8/prj/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/qcom_spec/hdl/../../xl_vip/lib/XlEdgeDetector.sv
+Z112 F/prj/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/qcom_spec/hdl/../../xl_vip/lib/XlEdgeDetector.sv
+L0 40
+R11
+r1
+31
+R12
+R13
+R14
+Z113 n@xl@edge@detector
+Z114 !s100 c@>EzWQzNY__Xcn<[c;AU0
+!s85 0
+vXlGpioTransactor
+R1
+R2
+Z115 I0W>5gMJP9`2I95f2MIH@G1
+Z116 VSGzd349h050J15TdSaDaC3
+R5
+S1
+R6
+Z117 w1270565466
+Z118 8/prj/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/qcom_spec/hdl/../../xl_vip/lib/XlGpioTransactor.sv
+Z119 F/prj/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/qcom_spec/hdl/../../xl_vip/lib/XlGpioTransactor.sv
+L0 30
+R11
+r1
+31
+R12
+R13
+R14
+Z120 n@xl@gpio@transactor
+Z121 !s100 1Yz;D@gSz<X4S5:0d;bU]0
+!s85 0
+vXlMemoryTransactor
+R1
+R2
+Z122 I_Gb6Ode>0=>zIB9Lhic@g2
+Z123 V29GO[ic;3OokP`ZZlNNNo3
+R5
+S1
+R6
+Z124 w1282262046
+Z125 8/prj/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/qcom_spec/hdl/../../xl_vip/lib/XlMemoryTransactor.sv
+Z126 F/prj/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/qcom_spec/hdl/../../xl_vip/lib/XlMemoryTransactor.sv
+L0 30
+R11
+r1
+31
+R12
+R13
+R14
+Z127 n@xl@memory@transactor
+Z128 !s100 [7Qm;lNM6CEl[mBGVKkUP3
+!s85 0
+vXlResetGenerator
+R1
+R2
+Z129 IE_lW;9QKc546Z0z<P31U>1
+Z130 Vg<Jb<BBWG:3K`4@M?gDjP2
+R5
+S1
+R6
+Z131 w1427895360
+Z132 8/prj/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/qcom_spec/hdl/../../xl_vip/lib/XlResetGenerator.sv
+Z133 F/prj/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/qcom_spec/hdl/../../xl_vip/lib/XlResetGenerator.sv
+L0 30
+R11
+r1
+31
+R12
+R13
+R14
+Z134 n@xl@reset@generator
+Z135 !s100 3IOID3A^ZndlJ72XHc=g41
+!s85 0
+vXlRngTransactor
+R1
+R2
+Z136 I`j?80>I6kFH<H^R=X=hE11
+Z137 VYCWW3K>e;mEM=ie_ZlFd80
+R5
+S1
+R6
+Z138 w1268760061
+Z139 8/prj/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/qcom_spec/hdl/../../xl_vip/lib/hdl_veloce/XlRngTransactor.sv
+Z140 F/prj/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/qcom_spec/hdl/../../xl_vip/lib/hdl_veloce/XlRngTransactor.sv
+L0 28
+R11
+r1
+31
+R12
+R13
+R14
+Z141 n@xl@rng@transactor
+Z142 !s100 M8hn4VeJ6`[4BINmia9dP0
+!s85 0
+vXlVeraSystemClock
+R1
+R2
+Z143 IcoJzDPgDXeXD`9HZEY0Tc2
+Z144 VXkXg;oVQTgIU@Pk@T<`GY2
+R5
+S1
+R6
+Z145 w1287539755
+Z146 8/prj/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/qcom_spec/hdl/../../xl_vip/lib/XlVeraSystemClock.sv
+Z147 F/prj/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/qcom_spec/hdl/../../xl_vip/lib/XlVeraSystemClock.sv
+L0 26
+R11
+r1
+31
+R12
+R13
+R14
+Z148 n@xl@vera@system@clock
+Z149 !s100 8VUQilVjP<13bO[Znd44Z3
+!s85 0

@@ -1,0 +1,15 @@
+<COMPILE_SPEC name = "uvc_qclk_dpi" spec_ver = "2.0">
+
+  <REQUIRES>
+  </REQUIRES>
+
+  <SOURCE>
+    <FILE name = "qclk_proxy_dpi.cpp"/>
+  </SOURCE>
+  <TASK>
+    <TOOL>
+       <OPTION name = "-g -Wall -fPIC -DSC_INCLUDE_DYNAMIC_PROCESSES" />
+       <OPTION name = "-I. -I$(MTI_HOME)/include  -I${XL_VIP_HOME}/xl_vip/lib" />
+    </TOOL>
+  </TASK>
+</COMPILE_SPEC>

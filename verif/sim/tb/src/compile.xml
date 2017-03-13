@@ -1,0 +1,16 @@
+<COMPILE_SPEC name = "uvc_pcounter_tb" spec_ver = "2.0">
+
+  <REQUIRES>
+    uvc_pcounter
+    uvc_pcounter_test
+  </REQUIRES>
+  <SOURCE>
+    <FILE name = "tb_top.sv"/>
+  </SOURCE>
+  <TASK>
+    <TOOL>
+       <OPTION name = "+incdir+$(CDIR)/."/>
+    </TOOL>
+  </TASK>
+
+</COMPILE_SPEC>

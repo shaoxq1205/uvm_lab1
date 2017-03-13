@@ -1,0 +1,18 @@
+<COMPILE_SPEC name = "uvc_pcounter_palladium" spec_ver = "2.0">
+
+  <REQUIRES>
+    uvc_qclk_palladium
+    uvc_qirq_palladium
+    uvc_qgpio_palladium
+  </REQUIRES>
+  <SOURCE>
+    <FILE name = "pcounter_pkg.sv"/>
+  </SOURCE>
+  <TASK>
+    <TOOL>
+       <OPTION name = "+incdir+$(WORKSPACE)/libs/verification/uvcs/qclk/env/src"/>
+       <OPTION name = "+incdir+$(CDIR)/."/>
+       <OPTION name = "+incdir+$(CDIR)/../sequence_lib/src"/>
+    </TOOL>
+  </TASK>
+</COMPILE_SPEC>

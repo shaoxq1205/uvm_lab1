@@ -1,0 +1,8 @@
+QVMR_DUT_DIR= /usr2/xiaoshao/uvm_training_labs/lab11/lab1/unmanaged/qvmr/xiaoshao/libs/default/hdl/modelsim/6.6g/LINUX64
+QVMR_TB_LIBS_DIR= /usr2/xiaoshao/uvm_training_labs/lab11/lab1/unmanaged/qvmr/xiaoshao/libs/default/tb_libs/modelsim/6.6g/LINUX64
+QVMR_TB_DIR= /usr2/xiaoshao/uvm_training_labs/lab11/lab1/unmanaged/qvmr/xiaoshao/libs/default/tb/modelsim/6.6g/LINUX64
+QVMR_TEST_DIR= /usr2/xiaoshao/uvm_training_labs/lab11/lab1/unmanaged/qvmr/xiaoshao/simland/standalone/default/0.pcounter_test_qclk_change_clock_period/test/modelsim/6.6g/LINUX64
+QVMR_SIM_TOP_DIR= /usr2/xiaoshao/uvm_training_labs/lab11/lab1/unmanaged/qvmr/xiaoshao/libs/default/tb/modelsim/6.6g/LINUX64
+QVMR_SIM_DIR= /usr2/xiaoshao/uvm_training_labs/lab11/lab1/unmanaged/qvmr/xiaoshao/simland/standalone/default/0.pcounter_test_qclk_change_clock_period/modelsim
+QVMR_ELAB_DIR= /usr2/xiaoshao/uvm_training_labs/lab11/lab1/unmanaged/qvmr/xiaoshao/libs/default/tb/modelsim/6.6g/LINUX64
+QVMR_ABV_DIR= /usr2/xiaoshao/uvm_training_labs/lab11/lab1/unmanaged/qvmr/xiaoshao/libs/default/abv/modelsim/6.6g/LINUX64

@@ -1,0 +1,19 @@
+<COMPILE_SPEC name = "uvc_qgpio" spec_ver = "2.0">
+
+  <REQUIRES>
+    uvm
+    quvm_addons
+    xl_vip_hvl_sysv_open_kit
+    uvc_qgpio_dpi
+  </REQUIRES>
+  <SOURCE>
+    <FILE name = "qgpio_pkg.sv"/>
+  </SOURCE>
+  <TASK>
+    <TOOL>
+       <OPTION name = "+incdir+$(CDIR)/."/>
+       <OPTION name = "+incdir+$(CDIR)/../sequence_lib/src"/>
+       <OPTION name = "+incdir+$(XL_VIP_HOME)/xl_vip/lib"/>
+    </TOOL>
+  </TASK>
+</COMPILE_SPEC>

@@ -1,0 +1,125 @@
+---
+CCASE_DISABLE_FDN_REUSE: TRUE
+CCASE_MAKE_COMPAT: gnu
+CLEARCASE_BLD_UMASK: 2
+CLEARCASE_MKELEM_USE_GRPLIST: true
+CODE_COVERAGE: 1
+CODE_COVERAGE_DIR: /usr2/xiaoshao/uvm_training_labs/lab11/lab1/unmanaged/qvmr/xiaoshao/simland/standalone/default/0.pcounter_test_qclk_change_clock_period/modelsim/coverage/modelsim
+COLORTERM: gnome-terminal
+CPU: x86_64
+CSHEDIT: emacs
+CSHRCREAD: true
+CVS_RSH: ssh
+DBUS_SESSION_BUS_ADDRESS: 'unix:abstract=/tmp/dbus-iPtCbgFFTC,guid=46104d7cec28786a1182911758c6c757'
+DIM_QBAR_INFO_FILE: /usr2/xiaoshao/.qbar_dim/.qbar_dim_info_Vah_9z/dim_info
+DISPLAY: vl-xiaoshao-gridsdcb:10.0
+ENV: /etc/bash.bashrc
+FROM_HEADER: ''
+GNOME_DESKTOP_SESSION_ID: this-is-deprecated
+GNOME_KEYRING_SOCKET: /tmp/keyring-C8l43c/socket
+GROUP: users
+GROUPS: users vlsi phonesys vlsides ccmdm 16ff 10lp_be 10lp 7ff 7ff_be
+GTK_RC_FILES: /etc/gtk/gtkrc:/usr2/xiaoshao/.gtkrc-1.2-gnome2
+GV2_ENV: sourced
+G_BROKEN_FILENAMES: 1
+G_FILENAME_ENCODING: '@locale,UTF-8,ISO-8859-1,CP1252'
+HOME: /usr2/xiaoshao
+HOME_0IN: /pkg/qct/software/mentor/0-in//linux_x86_64
+HOST: vl-xiaoshao-gridsdcb
+HOSTNAME: vl-xiaoshao-gridsdcb.qualcomm.com
+HOSTTYPE: x86_64-linux
+ICAROOT: /pkg/wts/qct/bin
+ICEAUTHORITY: /usr2/xiaoshao/.ICEauthority
+INCISIV_VERSION: incisiv11.10.018
+INFODIR: /usr/local/info:/usr/share/info:/usr/info
+INFOPATH: /usr/local/info:/usr/share/info:/usr/info:/pkg/icetools/info:/pkg/gnu/info:/pkg/ispell/info
+INPUTRC: /etc/inputrc
+JAVA_BINDIR: /usr/lib64/jvm/jre/bin
+JAVA_HOME: /usr/lib64/jvm/jre
+JAVA_ROOT: /usr/lib64/jvm/jre
+JRE_HOME: /usr/lib64/jvm/jre
+LANG: en_US.UTF-8
+LC_ALL: C
+LD_LIBRARY_PATH: ''
+LESS: -M -I
+LESSCLOSE: lessclose.sh %s %s
+LESSKEY: /etc/lesskey.bin
+LESSOPEN: lessopen.sh %s
+LESS_ADVANCED_PREPROCESSOR: no
+LIB: /prj/vlsi/tools/libraries
+LOGNAME: xiaoshao
+LS_OPTIONS: -N --color=tty -T 0
+MACHTYPE: x86_64
+MAGIC_PATH: /usr/local/projects/qct/clearcase/scripts/magic_files/qct-san
+MAIL: /var/mail/xiaoshao
+MAKE: make
+MAKEFLAGS: 'L -- _QBAR_LOCK_INFO=/tmp/.qbar_info_Gq2rEsb/lock.11232'
+MAKELEVEL: 1
+MAKEOVERRIDES: '${-*-command-variables-*-}'
+MAKEPARSER_KEEP_LOG: 1
+MANPATH: /usr/share/man:/usr/local/man:/usr/local/share/man:/opt/quest/man:/usr/man:/usr/X11R6/man:/pkg/icetools/man:/pkg/iceng/lsf/cur_rel/man:/pkg/hwtools/man:/pkg/gnu/man:/pkg/ispell/man:/pkg/qcaetools/syseng/man:/prj/vlsi/tools/man:/usr/atria/doc/man
+MATLABPATH: /pkg/qcaetools/syseng
+MFLAGS: -L
+MINICOM: -c on
+MODELTECH_VERSION: 6.6g
+MORE: -sl
+MOZILLA_HOME: /pkg/netscape/bin
+MTI_HOME: /pkg/qct/software/modeltech/6.6g
+NNTPSERVER: news.qualcomm.com
+NOVAS_VERSION: 2012.07
+ORBIT_SOCKETDIR: /tmp/orbit-xiaoshao
+OSTYPE: linux
+PAGER: less
+PATH: /pkg/qvmr/bin:/pkg/qvmr/bin:/pkg/wts/qct/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin/X11:/usr/X11R6/bin:/usr/games:/opt/kde3/bin:/usr/lib/mit/bin:/usr/lib/mit/sbin:/pkg/icetools/bin:/pkg/hwtools/bin:/pkg/netscape/bin:/pkg/gnu/bin:/pkg/qcaetools/syseng/bin:/prj/vlsi/tools/bin:/usr/atria/bin:/opt/rational/clearquest/bin:/opt/rational/common/bin:/local/mnt/workspace/eclipse/eclipse:/local/mnt/workspace/jre/jre1.5.0_17/bin:/usr/local/projects/qct/clearcase/scripts
+PWD: /usr2/xiaoshao/uvm_training_labs/lab11/lab1/verif/tool_setup/qvmr
+PYTHONSTARTUP: /etc/pythonstart
+QAFFEE_DEFAULT_INVOCATION: standalone
+QBAR_HOME: /pkg/qvmr/2.10.2/qbar
+QBAR_ID: ''
+QBAR_XL_VIP_INSTALL_ROOT: /usr/local/projects/qct/evals/veloce/software/iSolveTransactors
+QBAR_ZIN_INSTALL_ROOT: /pkg/qct/software/mentor/0-in
+QTEA_HOME: /pkg/qvmr/2.10.2/qtea
+QT_HOME_DIR: /usr/share/desktop-data
+QVMR_AVL_PATH: /pkg/qvmr/2.10.2/qbar/avl_default
+QVMR_DUT_DIR: /usr2/xiaoshao/uvm_training_labs/lab11/lab1/unmanaged/qvmr/xiaoshao/libs/default/hdl/modelsim/6.6g/LINUX64
+QVMR_HOME: /pkg/qvmr/2.10.2
+QVMR_VERSION: 2.10.2
+SAVE_SIM_COVERAGE: 1
+SAVE_SIM_COVERAGE_DIR: /usr2/xiaoshao/uvm_training_labs/lab11/lab1/unmanaged/qvmr/xiaoshao/simland/standalone/default/0.pcounter_test_qclk_change_clock_period/modelsim/coverage/modelsim
+SESSION_MANAGER: 'local/vl-xiaoshao-gridsdcb:@/tmp/.ICE-unix/121547,unix/vl-xiaoshao-gridsdcb:/tmp/.ICE-unix/121547'
+SHELL: /bin/tcsh
+SHELL_TYPE: C
+SHLVL: 4
+SIM: modelsim
+SSH_AUTH_SOCK: /tmp/keyring-C8l43c/socket.ssh
+SSH_CLIENT: 10.23.92.11 47510 22
+SSH_CONNECTION: 10.23.92.11 47510 10.56.123.27 22
+SUBSCRIPTIONS: qct_clearcase
+SVA_COVERAGE: 1
+TBX_HOME: /pkg/qct/software/mentor/tbx/tbx_v2.4.3.0
+TBX_VERSION: tbx_v2.4.3.0
+TECH: /prj/vlsi/tools/tech
+TECHDIR: /prj/vlsi/tools/tech
+TERM: xterm
+TEST_NAME: pcounter_test_qclk_change_clock_period
+USER: xiaoshao
+VCS_VERSION: vcs-mx_vF-2011.12-SP1
+VENDOR: unknown
+WINDOWID: 27262979
+WORKSPACE: /usr2/xiaoshao/uvm_training_labs/lab11/lab1
+XAUTHLOCALHOSTNAME: vl-xiaoshao-gridsdcb
+XCURSOR_THEME: ''
+XDG_CONFIG_DIRS: /etc/xdg
+XDG_DATA_DIRS: /usr/local/share:/usr/share:/etc/opt/kde3/share:/opt/kde3/share:/usr/share/gnome
+XKEYSYMDB: /usr/share/X11/XKeysymDB
+XL_VIP_HOME: /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b
+XL_VIP_VERSION: xl_vip2.4.0.2b
+XNLSPATH: /usr/share/X11/nls
+ZIN_VERSION: ''
+_: /pkg/qvmr/2.10.2/qbar/scripts/internal/gen_replay_vanila.pl
+_QBAR_LOCK_INFO: /tmp/.qbar_info_Gq2rEsb/lock.11232
+_QBAR_MODE: standalone
+__QBAR_SESSION_DATA: ' ****************************************************\n * SESSION INFO\n ****************************************************\n * QVMR: 2.10.2\n * Flow: tbx\n * Goals: sim\n * Flags: \n * Platform: LINUX64\n * Host: vl-xiaoshao-gridsdcb\n * Process ID: 11277\n * Makefile: /usr2/xiaoshao/uvm_training_labs/lab11/lab1/verif/tool_setup/qvmr/Makefile\n * Session started: Mon Mar 13 10:58:57 PDT 2017\n * Host Uptime:  10:58am  up 9 days 22:48,  2 users,  load average: 0.06, 0.12, 0.08\n ****************************************************\n * TOOL INFO\n ****************************************************\n * Modelsim: 6.6g ($MODELTECH_VERSION)\n * DVT: 3.0.6.1 (DEFAULT)\n ****************************************************\n \n[qbar.mk] Warning: DVT_VERSION environment variable definition detected from improper origin: undefined.  DVT_VERSION should be defined in the environment prior to invoking qbar.\n\n ****************************************************\n'
+__QVMR_TESTCASE_TYPE: ovm_or_uvm
+defaultpath_11232: /usr2/xiaoshao/uvm_training_labs/lab11/lab1/verif/tool_setup/qvmr:/usr2/xiaoshao/uvm_training_labs/lab11/lab1/verif/sim
+unmanaged: /usr2/xiaoshao/uvm_training_labs/lab11/lab1/unmanaged

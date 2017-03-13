@@ -1,0 +1,13 @@
+2
+keyed
+<Name><State><Vault><Branch><Version><DateFetched><Log><Conflict><StickyTag><MergedFrom>
+<classB.svh><C><sync://ds-svtb:3515/Projects/uvm_release/examples/simple/configuration/manual/classB.svh;><1><1.4><1355746779><><F><><><vctime=1349388027>
+<Makefile.ius><C><sync://ds-svtb:3515/Projects/uvm_release/examples/simple/configuration/manual/Makefile.ius;><1><1.4><1355746779><><F><><><vctime=1349388025>
+<classC.svh><C><sync://ds-svtb:3515/Projects/uvm_release/examples/simple/configuration/manual/classC.svh;><1><1.4><1355746779><><F><><><vctime=1349388027>
+<top.sv><C><sync://ds-svtb:3515/Projects/uvm_release/examples/simple/configuration/manual/top.sv;><1><1.4><1355746779><><F><><><vctime=1349388028>
+<my_env_pkg.sv><C><sync://ds-svtb:3515/Projects/uvm_release/examples/simple/configuration/manual/my_env_pkg.sv;><1><1.4><1355746779><><F><><><vctime=1349388027>
+<Makefile.vcs><C><sync://ds-svtb:3515/Projects/uvm_release/examples/simple/configuration/manual/Makefile.vcs;><1><1.4><1355746779><><F><><><vctime=1349388026>
+<Makefile.questa><C><sync://ds-svtb:3515/Projects/uvm_release/examples/simple/configuration/manual/Makefile.questa;><1><1.4><1355746779><><F><><><vctime=1349388026>
+<classA.svh><C><sync://ds-svtb:3515/Projects/uvm_release/examples/simple/configuration/manual/classA.svh;><1><1.4><1355746779><><F><><><vctime=1349388026>
+
+

@@ -1,0 +1,15 @@
+<COMPILE_SPEC name = "uvc_pcounter_test_palladium" spec_ver = "2.0">
+
+  <REQUIRES>
+    uvm
+    uvc_pcounter_palladium
+  </REQUIRES>
+  <SOURCE>
+    <FILE name = "pcounter_test_pkg.sv"/>
+  </SOURCE>
+  <TASK>
+    <TOOL>
+       <OPTION name = "+incdir+$(CDIR)/."/>
+    </TOOL>
+  </TASK>
+</COMPILE_SPEC>

@@ -1,0 +1,14 @@
+<COMPILE_SPEC name = "uvc_qgpio_dpi_palladium" spec_ver = "2.0">
+
+  <REQUIRES>
+  </REQUIRES>
+
+  <SOURCE>
+    <FILE name = "qgpio_proxy_dpi.cpp" filetype="DPI-C++" />
+  </SOURCE>
+  <TASK>
+    <TOOL name = "G++" >
+       <OPTION name = "-g -I. -Wall -fPIC -DSC_INCLUDE_DYNAMIC_PROCESSES -DPALLADIUM" />
+    </TOOL>
+  </TASK>
+</COMPILE_SPEC>

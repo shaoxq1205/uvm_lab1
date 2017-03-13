@@ -1,0 +1,108 @@
+ ****************************************************
+ * SESSION INFO
+ ****************************************************
+ * QVMR: 2.10.2
+ * Flow: tbx
+ * Goals: sim
+ * Flags: 
+ * Platform: LINUX64
+ * Host: vl-xiaoshao-gridsdcb
+ * Process ID: 11277
+ * Makefile: /usr2/xiaoshao/uvm_training_labs/lab11/lab1/verif/tool_setup/qvmr/Makefile
+ * Session started: Mon Mar 13 10:58:57 PDT 2017
+ * Host Uptime:  10:58am  up 9 days 22:48,  2 users,  load average: 0.06, 0.12, 0.08
+ ****************************************************
+ * TOOL INFO
+ ****************************************************
+ * Modelsim: 6.6g ($MODELTECH_VERSION)
+ * DVT: 3.0.6.1 (DEFAULT)
+ ****************************************************
+ 
+[qbar.mk] Warning: DVT_VERSION environment variable definition detected from improper origin: undefined.  DVT_VERSION should be defined in the environment prior to invoking qbar.
+
+ ****************************************************
+[Mon Mar 13 10:59:01 PDT 2017] Make: Generate DUT makefile for pcounter_veloce (hier) ...
+[Mon Mar 13 10:59:01 PDT 2017] Make:  cd /usr2/xiaoshao/uvm_training_labs/lab11/lab1/unmanaged/qvmr/xiaoshao/libs/default/hdl/modelsim/6.6g/LINUX64 && /pkg/qvmr/bin/qbar_cs2mk    -ignore_missing -ignore_src_filter_spec_err -top pcounter_veloce -type hdl -task sim -spec_path /usr2/xiaoshao/uvm_training_labs/lab11/lab1/pcounter -spec_path /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/qcom_spec/hdl -spec_path /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b  -tool modelsim -mode hier -prefix dut -block 'pcounter_veloce' -output_dir /usr2/xiaoshao/uvm_training_labs/lab11/lab1/unmanaged/qvmr/xiaoshao/libs/default/hdl/modelsim/6.6g/LINUX64 -default_work hdl_work -gen_output 1
+[INFO]  03/13/2017 10:59:01 Invoking QDistiller API
+[INFO]  03/13/2017 10:59:01 Processed 131 environment variables [00s]
+[INFO]  03/13/2017 10:59:01 Scanning directory '${WORKSPACE}/pcounter'.
+[INFO]  03/13/2017 10:59:01 Scanning directory '/prj/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/qcom_spec/hdl'.
+[INFO]  03/13/2017 10:59:01 Scanning directory '/prj/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b'.
+[WARN]  03/13/2017 10:59:01 CompileSpec file '/prj/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/qcom_spec/hdl/compile.xml' already parsed. Skipping...
+[WARN]  03/13/2017 10:59:01 CompileSpec file '/prj/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/qcom_spec/hdl/compile_if_hdl.xml' already parsed. Skipping...
+[INFO]  03/13/2017 10:59:01 Examining CompileSpec 1 of 2: xl_vip_hdl (/prj/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/qcom_spec/hdl/compile.xml)
+[INFO]  03/13/2017 10:59:01 Processed CompileSpec 1 of 2: xl_vip_hdl [00s]
+[INFO]  03/13/2017 10:59:01 Examining CompileSpec 2 of 2: pcounter_veloce (/usr2/xiaoshao/uvm_training_labs/lab11/lab1/pcounter/src/compile.xml)
+[INFO]  03/13/2017 10:59:01 Processed CompileSpec 2 of 2: pcounter_veloce [00s]
+[INFO]  03/13/2017 10:59:01 QDistiller API returned
+[INFO]  03/13/2017 10:59:01 Processing contents for 'xl_vip_hdl' first needed by 'pcounter_veloce' (dut)
+[INFO]  03/13/2017 10:59:01 Processing contents for 'pcounter_veloce'  (dut)
+[INFO]  03/13/2017 10:59:01 /usr2/xiaoshao/uvm_training_labs/lab11/lab1/unmanaged/qvmr/xiaoshao/libs/default/hdl/modelsim/6.6g/LINUX64/pcounter_veloce_hier_dut.mk
+[INFO]  03/13/2017 10:59:01 /usr2/xiaoshao/uvm_training_labs/lab11/lab1/unmanaged/qvmr/xiaoshao/libs/default/hdl/modelsim/6.6g/LINUX64/pcounter_veloce_dut.info
+
+[Mon Mar 13 10:59:03 PDT 2017] Make: Create modelsim.ini for modelsim (dut) ...
+[Mon Mar 13 10:59:03 PDT 2017] Make: /bin/cp -rLf /pkg/qvmr/2.10.2/qbar/templates/modelsim/modelsim.ini /usr2/xiaoshao/uvm_training_labs/lab11/lab1/unmanaged/qvmr/xiaoshao/libs/default/hdl/modelsim/6.6g/LINUX64/modelsim.ini
+[Mon Mar 13 10:59:03 PDT 2017] Make:  cd /usr2/xiaoshao/uvm_training_labs/lab11/lab1/unmanaged/qvmr/xiaoshao/libs/default/hdl/modelsim/6.6g/LINUX64 && /pkg/qvmr/2.10.2/qbar/scripts/internal/AddModelsimIniOption "[sccom]CppPath=/pkg/modeltech/6.6g/gcc-4.1.2-linux_x86_64/bin/gcc" "[vsim]CppPath=/pkg/modeltech/6.6g/gcc-4.1.2-linux_x86_64/bin/gcc" "[vsim]DpiCppPath=/pkg/modeltech/6.6g/gcc-4.1.2-linux_x86_64/bin/gcc" "[vsim]SolveArrayResizeMax=20000" "[Library]work=/usr2/xiaoshao/uvm_training_labs/lab11/lab1/unmanaged/qvmr/xiaoshao/libs/default/tb/modelsim/6.6g/LINUX64/sim_top_work"
+
+[Mon Mar 13 10:59:03 PDT 2017] Make: Creating hdl_work work library ...
+[Mon Mar 13 10:59:03 PDT 2017] Make: cd /usr2/xiaoshao/uvm_training_labs/lab11/lab1/unmanaged/qvmr/xiaoshao/libs/default/hdl/modelsim/6.6g/LINUX64 && /pkg/qvmr/bin/Vlib -qc_standalone       hdl_work
+
+[Mon Mar 13 10:59:03 PDT 2017] Make: Mapping hdl_work for modelsim (dut) ...
+[Mon Mar 13 10:59:03 PDT 2017] Make: cd /usr2/xiaoshao/uvm_training_labs/lab11/lab1/unmanaged/qvmr/xiaoshao/libs/default/hdl/modelsim/6.6g/LINUX64 && /pkg/qvmr/bin/Vmap -qc_standalone    -quiet    hdl_work /usr2/xiaoshao/uvm_training_labs/lab11/lab1/unmanaged/qvmr/xiaoshao/libs/default/hdl/modelsim/6.6g/LINUX64/hdl_work
+
+[Mon Mar 13 10:59:04 PDT 2017] Make: Compiling xl_vip_hdl for modelsim 1/1 (dut block 1 of 2) ...
+[Mon Mar 13 10:59:04 PDT 2017] Make:  cd /usr2/xiaoshao/uvm_training_labs/lab11/lab1/unmanaged/qvmr/xiaoshao/libs/default/hdl/modelsim/6.6g/LINUX64 && /pkg/qvmr/bin/Vlog -qc_standalone    +incdir+/usr2/xiaoshao/uvm_training_labs/lab11/lab1/libs/verification/quvm/release/src -mfcu -timescale 1ns/1ps   -sv -cover bcsetf                        +define+TBX_MODE +define+TBX_WORKAROUND +define+TBX_XL_SIM_MODE -f ./xl_vip_hdl_hier_dut_sv.f -work hdl_work   
+QuestaSim-64 vlog 6.6g Compiler 2012.05 May 23 2012
+-- Compiling module XlRngTransactor
+-- Compiling module XlVeraSystemClock
+-- Compiling module XlClockAdvancer
+-- Compiling module XlResetGenerator
+-- Compiling module XlMemoryTransactor
+-- Compiling module XlEdgeDetector
+-- Compiling module vsms5505
+-- Compiling module channel_fifo
+-- Compiling module sram_rstatem
+-- Compiling module axi_rd_bfr
+-- Compiling module rd_arbmux
+-- Compiling module generateAddressAndByteEnables
+-- Compiling module sram_wstatem
+-- Compiling module axi_wr_bfr
+-- Compiling module wr_arbmux
+-- Compiling module XlGpioTransactor
+-- Compiling module XlAxiSlaveTransactor
+-- Compiling module XlAxiR0p0MasterTransactor
+-- Compiling module XlAxiR0p0SlaveTransactor
+-- Compiling module XlAxiMasterTransactor
+-- Compiling module XlAhbMasterTransactor
+-- Compiling module XlAhbSlaveTransactor
+-- Compiling module XlAhbMonitor
+
+Top level modules:
+	XlVeraSystemClock
+	XlClockAdvancer
+	XlResetGenerator
+	XlEdgeDetector
+	XlGpioTransactor
+	XlAxiR0p0MasterTransactor
+	XlAxiR0p0SlaveTransactor
+	XlAhbMasterTransactor
+	XlAhbSlaveTransactor
+	XlAhbMonitor
+
+[Mon Mar 13 10:59:04 PDT 2017] Make: Compiling pcounter_veloce for modelsim 1/1 (dut block 2 of 2) ...
+[Mon Mar 13 10:59:04 PDT 2017] Make:  cd /usr2/xiaoshao/uvm_training_labs/lab11/lab1/unmanaged/qvmr/xiaoshao/libs/default/hdl/modelsim/6.6g/LINUX64 && /pkg/qvmr/bin/Vlog -qc_standalone    +incdir+/usr2/xiaoshao/uvm_training_labs/lab11/lab1/libs/verification/quvm/release/src -mfcu -timescale 1ns/1ps   -sv -cover bcsetf                        -f ./pcounter_veloce_hier_dut_sv.f -work hdl_work   
+QuestaSim-64 vlog 6.6g Compiler 2012.05 May 23 2012
+-- Compiling module pcounter
+-- Compiling module pcounter_wrapper
+-- Compiling module test_bench
+-- Compiling module ClkRstDriver
+-- Compiling module ProgClkDriver_INIT0_WithInitialDelay
+-- Compiling module ProgClkDriver_INIT0_WithoutInitialDelay
+-- Compiling module ProgClkDriver
+-- Compiling module ProgClockGater
+-- Compiling module clock_bfm
+
+Top level modules:
+	test_bench
+	ProgClkDriver
+

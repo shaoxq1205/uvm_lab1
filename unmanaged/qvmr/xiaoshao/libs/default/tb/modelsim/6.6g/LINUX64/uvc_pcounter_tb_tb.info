@@ -1,0 +1,81 @@
+#--------------------------------------------------------------------------
+# QBAR filelist info
+#--------------------------------------------------------------------------
+# Task: sim
+# Tool: modelsim
+# Search paths: /usr2/xiaoshao/uvm_training_labs/lab11/lab1/libs/verification/quvm, /usr2/xiaoshao/uvm_training_labs/lab11/lab1/verif, /prj/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b
+#--------------------------------------------------------------------------
+
+#--------------------------------------------------------------------------
+# CompileSpec: uvm
+#    Parents : quvm_addons, uvc_qclk, uvc_pcounter_test_palladium, quvm_extensions, uvc_pcounter_test
+#    Children: 
+#    Source: /usr2/xiaoshao/uvm_training_labs/lab11/lab1/libs/verification/quvm/release/compile.xml
+#--------------------------------------------------------------------------
+/usr2/xiaoshao/uvm_training_labs/lab11/lab1/libs/verification/quvm/release/src/uvm_pkg.sv (Language: SV)
+/usr2/xiaoshao/uvm_training_labs/lab11/lab1/libs/verification/quvm/release/src/uvm_macros.svh (Language: VerilogMacro)
+/usr2/xiaoshao/uvm_training_labs/lab11/lab1/libs/verification/quvm/release/src/dpi/uvm_dpi.cc (Language: DPI-C)
+
+#--------------------------------------------------------------------------
+# CompileSpec: quvm_addons
+#    Parents : uvc_qclk
+#    Children: uvm
+#    Source: /usr2/xiaoshao/uvm_training_labs/lab11/lab1/libs/verification/quvm/addons/src/compile.xml
+#--------------------------------------------------------------------------
+/usr2/xiaoshao/uvm_training_labs/lab11/lab1/libs/verification/quvm/addons/src/quvm_addons_pkg.sv (Language: SV)
+
+#--------------------------------------------------------------------------
+# CompileSpec: xl_vip_hvl_sysv_open_kit
+#    Parents : uvc_qclk
+#    Children: 
+#    Source: /prj/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/qcom_spec/hvl/sysv/compile_open_kit.xml
+#--------------------------------------------------------------------------
+${TBX_HOME}/questa/hdl/tbxEventPkg.sv (Language: SV)
+${TBX_HOME}/questa/hdl/xtlm/xtlm_base_pkg.sv (Language: SV)
+${TBX_HOME}/questa/hdl/xtlm/xtlm_pkg.sv (Language: SV)
+${XL_VIP_HOME}/xl_vip/lib/XlSvPkg.sv (Language: SV)
+${XL_VIP_HOME}/xl_vip/lib/XlSvTimeAdvancerPkg.sv (Language: SV)
+${XL_VIP_HOME}/xl_vip/lib/XlSvResetGeneratorPkg.sv (Language: SV)
+${XL_VIP_HOME}/xl_vip/lib/XlSvMemoryTransactorPkg.sv (Language: SV)
+${XL_VIP_HOME}/xl_vip/lib/XlSvGpioTransactorPkg.sv (Language: SV)
+${XL_VIP_HOME}/xl_vip/lib/XlSvEdgeDetectorPkg.sv (Language: SV)
+
+#--------------------------------------------------------------------------
+# CompileSpec: uvc_qclk_dpi
+#    Parents : uvc_qclk
+#    Children: 
+#    Source: /usr2/xiaoshao/uvm_training_labs/lab11/lab1/verif/sim/env/agents/qclk/env/src/DPI/compile.xml
+#--------------------------------------------------------------------------
+/usr2/xiaoshao/uvm_training_labs/lab11/lab1/verif/sim/env/agents/qclk/env/src/DPI/qclk_proxy_dpi.cpp (Language: SystemC)
+
+#--------------------------------------------------------------------------
+# CompileSpec: uvc_qclk
+#    Parents : uvc_pcounter
+#    Children: uvm, quvm_addons, xl_vip_hvl_sysv_open_kit, uvc_qclk_dpi
+#    Source: /usr2/xiaoshao/uvm_training_labs/lab11/lab1/verif/sim/env/agents/qclk/env/src/compile.xml
+#--------------------------------------------------------------------------
+/usr2/xiaoshao/uvm_training_labs/lab11/lab1/verif/sim/env/agents/qclk/env/src/qclk_pkg.sv (Language: SV)
+
+#--------------------------------------------------------------------------
+# CompileSpec: uvc_pcounter
+#    Parents : uvc_pcounter_tb, uvc_pcounter_test
+#    Children: uvc_qclk
+#    Source: /usr2/xiaoshao/uvm_training_labs/lab11/lab1/verif/sim/env/src/compile.xml
+#--------------------------------------------------------------------------
+/usr2/xiaoshao/uvm_training_labs/lab11/lab1/verif/sim/env/src/pcounter_pkg.sv (Language: SV)
+
+#--------------------------------------------------------------------------
+# CompileSpec: uvc_pcounter_test
+#    Parents : uvc_pcounter_tb
+#    Children: uvm, uvc_pcounter
+#    Source: /usr2/xiaoshao/uvm_training_labs/lab11/lab1/verif/sim/tests/src/compile.xml
+#--------------------------------------------------------------------------
+/usr2/xiaoshao/uvm_training_labs/lab11/lab1/verif/sim/tests/src/pcounter_test_pkg.sv (Language: SV)
+
+#--------------------------------------------------------------------------
+# CompileSpec: uvc_pcounter_tb
+#    Parents : 
+#    Children: uvc_pcounter, uvc_pcounter_test
+#    Source: /usr2/xiaoshao/uvm_training_labs/lab11/lab1/verif/sim/tb/src/compile.xml
+#--------------------------------------------------------------------------
+/usr2/xiaoshao/uvm_training_labs/lab11/lab1/verif/sim/tb/src/tb_top.sv (Language: SV)

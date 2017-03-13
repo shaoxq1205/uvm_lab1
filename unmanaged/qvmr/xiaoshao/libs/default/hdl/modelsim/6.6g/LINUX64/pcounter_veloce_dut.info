@@ -1,0 +1,41 @@
+#--------------------------------------------------------------------------
+# QBAR filelist info
+#--------------------------------------------------------------------------
+# Task: sim
+# Tool: modelsim
+# Search paths: /usr2/xiaoshao/uvm_training_labs/lab11/lab1/pcounter, /prj/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/qcom_spec/hdl, /prj/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b
+#--------------------------------------------------------------------------
+
+#--------------------------------------------------------------------------
+# CompileSpec: xl_vip_hdl
+#    Parents : pcounter_veloce
+#    Children: 
+#    Source: /prj/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/qcom_spec/hdl/compile.xml
+#--------------------------------------------------------------------------
+/prj/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/qcom_spec/hdl/../../xl_vip/lib/hdl_veloce/XlRngTransactor.sv (Language: SV)
+/prj/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/qcom_spec/hdl/../../xl_vip/lib/XlVeraSystemClock.sv (Language: SV)
+/prj/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/qcom_spec/hdl/../../xl_vip/lib/XlClockAdvancer.sv (Language: SV)
+/prj/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/qcom_spec/hdl/../../xl_vip/lib/XlResetGenerator.sv (Language: SV)
+/prj/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/qcom_spec/hdl/../../xl_vip/lib/XlMemoryTransactor.sv (Language: SV)
+/prj/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/qcom_spec/hdl/../../xl_vip/lib/XlEdgeDetector.sv (Language: SV)
+/prj/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/qcom_spec/hdl/../../xl_vip/lib/hdl_veloce/SoftCores/AxiSlaveCore/vsms5505.sv (Language: SV)
+/prj/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/qcom_spec/hdl/../../xl_vip/lib/hdl_veloce/SoftCores/AxiSlaveCore/vsmu5505.sv (Language: SV)
+/prj/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/qcom_spec/hdl/../../xl_vip/lib/XlGpioTransactor.sv (Language: SV)
+/prj/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/qcom_spec/hdl/../../xl_vip/lib/hdl_veloce/XlAxiSlaveTransactor.sv (Language: SV)
+/prj/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/qcom_spec/hdl/../../xl_vip/lib/hdl_veloce/XlAxiR0p0MasterTransactor.sv (Language: SV)
+/prj/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/qcom_spec/hdl/../../xl_vip/lib/hdl_veloce/XlAxiR0p0SlaveTransactor.sv (Language: SV)
+/prj/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/qcom_spec/hdl/../../xl_vip/lib/hdl_veloce/XlAxiMasterTransactor.sv (Language: SV)
+/prj/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/qcom_spec/hdl/../../xl_vip/lib/hdl_veloce/XlAhbMasterTransactor.sv (Language: SV)
+/prj/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/qcom_spec/hdl/../../xl_vip/lib/hdl_veloce/XlAhbSlaveTransactor.sv (Language: SV)
+/prj/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/qcom_spec/hdl/../../xl_vip/lib/hdl_veloce/XlAhbMonitor.sv (Language: SV)
+
+#--------------------------------------------------------------------------
+# CompileSpec: pcounter_veloce
+#    Parents : 
+#    Children: xl_vip_hdl
+#    Source: /usr2/xiaoshao/uvm_training_labs/lab11/lab1/pcounter/src/compile.xml
+#--------------------------------------------------------------------------
+/usr2/xiaoshao/uvm_training_labs/lab11/lab1/pcounter/src/pcounter.sv (Language: SV)
+/usr2/xiaoshao/uvm_training_labs/lab11/lab1/pcounter/src/pcounter_wrapper.sv (Language: SV)
+/usr2/xiaoshao/uvm_training_labs/lab11/lab1/pcounter/src/test_bench.sv (Language: SV)
+/usr2/xiaoshao/uvm_training_labs/lab11/lab1/pcounter/src/clock_bfm.sv (Language: SV)
