@@ -1,0 +1,7 @@
+Z                              52
+R;0;0;18;14;-1
+E;
+Z1
+S0;MAX_CHANNEL_WIDTH
+Z1
+F0;/pkg/qct/software/mentor/tbx/tbx_v2.4.3.0/questa/include/TbxSvManager.cxx

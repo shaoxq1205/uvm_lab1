@@ -1,0 +1,8 @@
+2
+keyed
+<Name><State><Vault><Branch><Version><DateFetched><Log><Conflict><StickyTag><MergedFrom>
+<extensions><G><sync://ds-svtb:3515/Projects/uvm_extensions><><><1300484151><><F><v1.0-1300484147--R><><HCM_TARGET=sync://ds-svtb:3515/Projects/uvm_extensions@v1.0><HCM_REF_FROM=.><HCM_HREFS=><HCM_POPULATE_TARGET=sync://ds-svtb:3515/Projects/uvm_extensions@v1.0><HCM_GET_TRANSACTION_ID=1355746772><HCM_STATUS=okay>
+<addons><G><sync://ds-svtb:3515/Projects/uvm_addons><><><1350508924><><F><v1.1-1350508920--R><><HCM_TARGET=sync://ds-svtb:3515/Projects/uvm_addons@v1.1><HCM_REF_FROM=.><HCM_HREFS=><HCM_POPULATE_TARGET=sync://ds-svtb:3515/Projects/uvm_addons@v1.1><HCM_GET_TRANSACTION_ID=1355746768><HCM_STATUS=okay>
+<release><G><sync://ds-svtb:3515/Projects/uvm_release><><><1352315827><><F><v1.8-1350508606--R><><HCM_TARGET=sync://ds-svtb:3515/Projects/uvm_release@v1.8><HCM_REF_FROM=.><HCM_HREFS=><HCM_POPULATE_TARGET=sync://ds-svtb:3515/Projects/uvm_release@v1.8><HCM_GET_TRANSACTION_ID=1355746776><HCM_STATUS=okay>
+
+

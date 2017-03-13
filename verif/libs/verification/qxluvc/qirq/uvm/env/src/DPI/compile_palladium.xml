@@ -1,0 +1,15 @@
+<COMPILE_SPEC name = "uvc_qirq_dpi_palladium" spec_ver = "2.0">
+
+  <REQUIRES>
+  </REQUIRES>
+
+  <SOURCE>
+    <FILE name = "qirq_proxy_dpi.cpp" filetype="DPI-C++" />
+  </SOURCE>
+  <TASK>
+    <TOOL name = "g++">
+       <OPTION name = "-g -Wall -fPIC -DSC_INCLUDE_DYNAMIC_PROCESSES" />
+       <OPTION name = "-I. " />
+    </TOOL>
+  </TASK>
+</COMPILE_SPEC>

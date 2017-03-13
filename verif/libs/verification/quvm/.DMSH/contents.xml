@@ -1,0 +1,5 @@
+<DMSH_SPEC name="svtb_uvm" config="v1.8" namespace="default">
+	<PACKAGE name="svtb_uvm_addons" config="v1.1" dest="addons" is_edited="false" last_populated_config="v1.1" last_populated_label="" update_config="" merged_from_id=""/>
+	<PACKAGE name="svtb_uvm_extensions" config="v1.0" dest="extensions" is_edited="false" last_populated_config="v1.0" last_populated_label="" update_config="" merged_from_id=""/>
+	<PACKAGE name="svtb_uvm_release" config="v1.8" dest="release" is_edited="false" last_populated_config="v1.8" last_populated_label="" update_config="" merged_from_id=""/>
+</DMSH_SPEC>

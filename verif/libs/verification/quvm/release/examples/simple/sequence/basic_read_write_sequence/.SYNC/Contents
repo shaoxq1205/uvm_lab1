@@ -1,0 +1,9 @@
+2
+keyed
+<Name><State><Vault><Branch><Version><DateFetched><Log><Conflict><StickyTag><MergedFrom>
+<Makefile.ius><C><sync://ds-svtb:3515/Projects/uvm_release/examples/simple/sequence/basic_read_write_sequence/Makefile.ius;><1><1.4><1355746781><><F><><><vctime=1349388221>
+<top.sv><C><sync://ds-svtb:3515/Projects/uvm_release/examples/simple/sequence/basic_read_write_sequence/top.sv;><1><1.4><1355746781><><F><><><vctime=1349388222>
+<Makefile.vcs><C><sync://ds-svtb:3515/Projects/uvm_release/examples/simple/sequence/basic_read_write_sequence/Makefile.vcs;><1><1.4><1355746781><><F><><><vctime=1349388222>
+<Makefile.questa><C><sync://ds-svtb:3515/Projects/uvm_release/examples/simple/sequence/basic_read_write_sequence/Makefile.questa;><1><1.4><1355746781><><F><><><vctime=1349388222>
+
+

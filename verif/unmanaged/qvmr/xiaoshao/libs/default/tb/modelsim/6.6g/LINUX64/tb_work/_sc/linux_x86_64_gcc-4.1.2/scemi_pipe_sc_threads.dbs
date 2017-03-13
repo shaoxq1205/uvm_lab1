@@ -1,0 +1,16 @@
+Z                             156
+R;0;0;22;6;-1
+R;0;1;33;44;-1
+R;0;2;35;15;-1
+R;0;1;36;27;-1
+R;0;2;38;11;-1
+R;0;2;39;20;-1
+R;0;1;42;41;-1
+R;0;1;44;25;-1
+E;
+Z3
+S1;handle
+S0;gIsTbxHdlCentricPipe
+S2;currScope
+Z1
+F0;/pkg/qct/software/mentor/tbx/tbx_v2.4.3.0/scemi_pipe_sim/include/scemi_pipe_sc_threads.cxx

@@ -1,0 +1,15 @@
+
+<COMPILE_SPEC name = "pcounter_veloce" spec_ver = "2.0">
+  
+  <REQUIRES>
+     xl_vip_hdl
+  </REQUIRES>
+  <SOURCE>
+    <FILE name = "pcounter.sv"/> 
+    <FILE name = "pcounter_wrapper.sv"/> 
+    <FILE name = "test_bench.sv"/> 
+    <FILE name = "clock_bfm.sv"/> 
+  </SOURCE>
+
+</COMPILE_SPEC>
+

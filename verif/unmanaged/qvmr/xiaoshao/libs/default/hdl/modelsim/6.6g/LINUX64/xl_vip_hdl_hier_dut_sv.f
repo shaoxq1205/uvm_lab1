@@ -1,0 +1,16 @@
+/prj/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/qcom_spec/hdl/../../xl_vip/lib/hdl_veloce/XlRngTransactor.sv
+/prj/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/qcom_spec/hdl/../../xl_vip/lib/XlVeraSystemClock.sv
+/prj/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/qcom_spec/hdl/../../xl_vip/lib/XlClockAdvancer.sv
+/prj/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/qcom_spec/hdl/../../xl_vip/lib/XlResetGenerator.sv
+/prj/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/qcom_spec/hdl/../../xl_vip/lib/XlMemoryTransactor.sv
+/prj/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/qcom_spec/hdl/../../xl_vip/lib/XlEdgeDetector.sv
+/prj/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/qcom_spec/hdl/../../xl_vip/lib/hdl_veloce/SoftCores/AxiSlaveCore/vsms5505.sv
+/prj/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/qcom_spec/hdl/../../xl_vip/lib/hdl_veloce/SoftCores/AxiSlaveCore/vsmu5505.sv
+/prj/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/qcom_spec/hdl/../../xl_vip/lib/XlGpioTransactor.sv
+/prj/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/qcom_spec/hdl/../../xl_vip/lib/hdl_veloce/XlAxiSlaveTransactor.sv
+/prj/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/qcom_spec/hdl/../../xl_vip/lib/hdl_veloce/XlAxiR0p0MasterTransactor.sv
+/prj/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/qcom_spec/hdl/../../xl_vip/lib/hdl_veloce/XlAxiR0p0SlaveTransactor.sv
+/prj/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/qcom_spec/hdl/../../xl_vip/lib/hdl_veloce/XlAxiMasterTransactor.sv
+/prj/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/qcom_spec/hdl/../../xl_vip/lib/hdl_veloce/XlAhbMasterTransactor.sv
+/prj/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/qcom_spec/hdl/../../xl_vip/lib/hdl_veloce/XlAhbSlaveTransactor.sv
+/prj/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/qcom_spec/hdl/../../xl_vip/lib/hdl_veloce/XlAhbMonitor.sv
