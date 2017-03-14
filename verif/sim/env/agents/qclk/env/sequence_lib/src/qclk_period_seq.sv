@@ -88,7 +88,7 @@ endclass : qclk_period_seq
 // body
 //-----------------------------------------------------------------------------
 task qclk_period_seq::body();
-
+/*
   int   hi_dur;
   int   lo_dur;
   REQ   req_sequence_item_h;    ///< handle to request sequence
@@ -113,7 +113,7 @@ task qclk_period_seq::body();
     rsp_sequence_item_h.m_trans_type.name(), 
     rsp_sequence_item_h.m_high_duration, 
     rsp_sequence_item_h.m_low_duration), UVM_LOW) ;
-
+*/
 endtask : body
 
 `endif

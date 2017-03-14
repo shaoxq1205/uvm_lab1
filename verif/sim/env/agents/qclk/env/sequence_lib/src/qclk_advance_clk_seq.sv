@@ -83,7 +83,7 @@ endclass : qclk_advance_clk_seq
 // body
 //-----------------------------------------------------------------------------
 task qclk_advance_clk_seq::body();
-
+/*
   int   num_clks;                ///< number of clock cyces
   REQ   req_sequence_item_h;     ///< The request sequence item
   RSP   rsp_sequence_item_h;     ///< The response sequence item
@@ -105,7 +105,7 @@ task qclk_advance_clk_seq::body();
   `uvm_info(get_full_name(), $psprintf("QCLK advance_clk seq :%s num_clks:%d",
     rsp_sequence_item_h.m_trans_type.name(), 
     rsp_sequence_item_h.m_num_clocks),  UVM_LOW) ;
-
+*/
 endtask : body
 
 `endif

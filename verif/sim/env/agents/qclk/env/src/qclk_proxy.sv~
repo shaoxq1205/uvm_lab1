@@ -423,8 +423,9 @@ endtask
 
 task  qclk_proxy::set_small_value(int i); //Test added by Xiaoqiang
   `uvm_info(get_type_name(),  $psprintf("Setting Small Value \n"), UVM_LOW )
-//To be added to toggle the pins
+//To be added to toggle the bits
   `uvm_info(get_type_name(),  $psprintf("Set Small Value \n"), UVM_LOW )  
-endtask
+
+endtast
 `endif //  `ifndef QCLK_PROXY__SV
    
