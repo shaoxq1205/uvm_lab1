@@ -57,7 +57,7 @@ module pcounter (// Clocks / Reset
     else begin
        value <= data_in + 1;
     end 
-      $display("(%t)Current value =  %d", $time, value);
+      $display("(%t)---------------------------------Current value =  %d--------------------------------------", $time, value);
     end // else: !if(~rst)
 
 endmodule

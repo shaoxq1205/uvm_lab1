@@ -1,3 +1,5 @@
+//This has been modified by Xiaoqiang to test UVM for a dummy 40 bit in-n-out design.
+
 //-----------------------------------------------------------------------------
 // Qualcomm Proprietary
 // Copyright (c) Qualcomm Inc.

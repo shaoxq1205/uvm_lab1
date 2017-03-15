@@ -10,3 +10,6 @@ setenv INCISIV_VERSION incisiv11.10.018
 setenv VCS_VERSION vcs-mx_vF-2011.12-SP1
 setenv NOVAS_VERSION 2012.07
 
+alias cdq 'cd $WORKSPACE/verif/tool_setup/qvmr/'
+alias cdu 'cd $WORKSPACE/verif/sim/env/agents/qclk/env/src'
+alias cdw 'cd $WORKSPACE'
