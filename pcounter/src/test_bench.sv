@@ -2,20 +2,25 @@
 
 `timescale 1 ns / 1 ns
 
+  //Test added by Xiaoqiang
+  // Instantiate the interface
+//`include "uvm_macros.svh"
+  
 module test_bench;
 
    // ----------------------------------------------------------------
    // -- Signal Declarations
    // ----------------------------------------------------------------
-   wire clk;
-   wire rst;
+ //  wire clk;
+ //  wire rst;
+
 
    // ----------------------------------------------------------------
    // -- Clock
    // ----------------------------------------------------------------
-   clock_bfm u_clock(
-			.clk(clk),
-			.rst(rst));
+ //  clock_bfm u_clock(
+//			.clk(clk),
+//			.rst(rst));
 
    // ----------------------------------------------------------------
    // -- Sync Inputs
@@ -23,9 +28,18 @@ module test_bench;
    // ----------------------------------------------------------------
    // -- DUT (Design Under Test)
    // ----------------------------------------------------------------
+   
+   
+
+   /*
    pcounter_wrapper dut(
 			.clk(clk),
-			.rst(rst));
+			.rst(rst),
+			.data_in(dut_if1.data_in),
+			.data_out(dut_if1.data_out)
+			);
+
+*/
 
 endmodule
 

@@ -28,10 +28,10 @@ Info: Executing "/afs/localcell/cm/GV2/sysname/pkg.@sys/qvmr/2.10.2/bin/make -L 
  * Flags: 
  * Platform: LINUX64
  * Host: vl-xiaoshao-gridsdcb
- * Process ID: 31312
+ * Process ID: 124893
  * Makefile: /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/verif/tool_setup/qvmr/Makefile
- * Session started: Wed Mar 15 09:27:39 PDT 2017
- * Host Uptime:  09:27am  up 11 days 21:17,  2 users,  load average: 0.13, 0.10, 0.06
+ * Session started: Wed Mar 15 14:26:19 PDT 2017
+ * Host Uptime:  14:26pm  up 12 days  2:15,  2 users,  load average: 0.01, 0.06, 0.10
  ****************************************************
  * TOOL INFO
  ****************************************************
@@ -43,72 +43,72 @@ Info: Executing "/afs/localcell/cm/GV2/sysname/pkg.@sys/qvmr/2.10.2/bin/make -L 
 
  ****************************************************
 
-[Wed Mar 15 09:27:41 PDT 2017] Make: Generate TB makefile (hier) ...
-[Wed Mar 15 09:27:41 PDT 2017] Make:  cd /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/libs/default/tb/modelsim/6.6g/LINUX64 && /pkg/qvmr/bin/qbar_cs2mk    -ignore_missing -ignore_src_filter_spec_err -type hvl -task sim -top uvc_pcounter_tb -tool modelsim -mode hier -disable_global_libs -spec_path /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/libs/verification/quvm -spec_path /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/verif -spec_path /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b  -disable_global_libs -phony -prefix tb -block 'uvc_pcounter_tb' -output_dir /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/libs/default/tb/modelsim/6.6g/LINUX64 -default_work tb_work -gen_output 1
-[INFO]  03/15/2017 09:27:41 Invoking QDistiller API
-[INFO]  03/15/2017 09:27:41 Processed 131 environment variables [00s]
-[INFO]  03/15/2017 09:27:41 Scanning directory '${WORKSPACE}/libs/verification/quvm'.
-[INFO]  03/15/2017 09:27:43 Scanning directory '${WORKSPACE}/verif'.
-[INFO]  03/15/2017 09:27:43 Scanning directory '/prj/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b'.
-[INFO]  03/15/2017 09:27:44 Examining CompileSpec 1 of 8: uvm (/usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/libs/verification/quvm/release/compile.xml)
-[INFO]  03/15/2017 09:27:44 Processed CompileSpec 1 of 8: uvm [00s]
-[INFO]  03/15/2017 09:27:44 Examining CompileSpec 2 of 8: quvm_addons (/usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/libs/verification/quvm/addons/src/compile.xml)
-[INFO]  03/15/2017 09:27:44 Processed CompileSpec 2 of 8: quvm_addons [00s]
-[INFO]  03/15/2017 09:27:44 Examining CompileSpec 3 of 8: xl_vip_hvl_sysv_open_kit (/prj/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/qcom_spec/hvl/sysv/compile_open_kit.xml)
-[INFO]  03/15/2017 09:27:44 Processed CompileSpec 3 of 8: xl_vip_hvl_sysv_open_kit [00s]
-[INFO]  03/15/2017 09:27:44 Examining CompileSpec 4 of 8: uvc_qclk_dpi (/usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/verif/sim/env/agents/qclk/env/src/DPI/compile.xml)
-[INFO]  03/15/2017 09:27:44 Processed CompileSpec 4 of 8: uvc_qclk_dpi [00s]
-[INFO]  03/15/2017 09:27:44 Examining CompileSpec 5 of 8: uvc_qclk (/usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/verif/sim/env/agents/qclk/env/src/compile.xml)
-[INFO]  03/15/2017 09:27:44 Processed CompileSpec 5 of 8: uvc_qclk [00s]
-[INFO]  03/15/2017 09:27:44 Examining CompileSpec 6 of 8: uvc_pcounter (/usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/verif/sim/env/src/compile.xml)
-[INFO]  03/15/2017 09:27:44 Processed CompileSpec 6 of 8: uvc_pcounter [00s]
-[INFO]  03/15/2017 09:27:44 Examining CompileSpec 7 of 8: uvc_pcounter_test (/usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/verif/sim/tests/src/compile.xml)
-[INFO]  03/15/2017 09:27:44 Processed CompileSpec 7 of 8: uvc_pcounter_test [00s]
-[INFO]  03/15/2017 09:27:44 Examining CompileSpec 8 of 8: uvc_pcounter_tb (/usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/verif/sim/tb/src/compile.xml)
-[INFO]  03/15/2017 09:27:44 Processed CompileSpec 8 of 8: uvc_pcounter_tb [00s]
-[INFO]  03/15/2017 09:27:44 QDistiller API returned
-[INFO]  03/15/2017 09:27:44 Processing contents for 'uvm' first needed by 'uvc_qclk' (tb)
-[INFO]  03/15/2017 09:27:44 Processing contents for 'quvm_addons' first needed by 'uvc_qclk' (tb)
-[INFO]  03/15/2017 09:27:44 Processing contents for 'xl_vip_hvl_sysv_open_kit' first needed by 'uvc_qclk' (tb)
-[INFO]  03/15/2017 09:27:44 Processing contents for 'uvc_qclk_dpi' first needed by 'uvc_qclk' (tb)
-[INFO]  03/15/2017 09:27:44 Processing contents for 'uvc_qclk' first needed by 'uvc_pcounter' (tb)
-[INFO]  03/15/2017 09:27:44 Processing contents for 'uvc_pcounter' first needed by 'uvc_pcounter_tb' (tb)
-[INFO]  03/15/2017 09:27:44 Processing contents for 'uvc_pcounter_test' first needed by 'uvc_pcounter_tb' (tb)
-[INFO]  03/15/2017 09:27:44 Processing contents for 'uvc_pcounter_tb'  (tb)
-[INFO]  03/15/2017 09:27:44 /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/libs/default/tb/modelsim/6.6g/LINUX64/uvc_pcounter_tb_hier_tb.mk
-[INFO]  03/15/2017 09:27:44 /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/libs/default/tb/modelsim/6.6g/LINUX64/uvc_pcounter_tb_tb.info
+[Wed Mar 15 14:26:20 PDT 2017] Make: Generate TB makefile (hier) ...
+[Wed Mar 15 14:26:20 PDT 2017] Make:  cd /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/libs/default/tb/modelsim/6.6g/LINUX64 && /pkg/qvmr/bin/qbar_cs2mk    -ignore_missing -ignore_src_filter_spec_err -type hvl -task sim -top uvc_pcounter_tb -tool modelsim -mode hier -disable_global_libs -spec_path /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/libs/verification/quvm -spec_path /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/verif -spec_path /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b  -disable_global_libs -phony -prefix tb -block 'uvc_pcounter_tb' -output_dir /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/libs/default/tb/modelsim/6.6g/LINUX64 -default_work tb_work -gen_output 1
+[INFO]  03/15/2017 14:26:20 Invoking QDistiller API
+[INFO]  03/15/2017 14:26:21 Processed 131 environment variables [00s]
+[INFO]  03/15/2017 14:26:21 Scanning directory '${WORKSPACE}/libs/verification/quvm'.
+[INFO]  03/15/2017 14:26:22 Scanning directory '${WORKSPACE}/verif'.
+[INFO]  03/15/2017 14:26:22 Scanning directory '/prj/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b'.
+[INFO]  03/15/2017 14:26:22 Examining CompileSpec 1 of 8: uvm (/usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/libs/verification/quvm/release/compile.xml)
+[INFO]  03/15/2017 14:26:22 Processed CompileSpec 1 of 8: uvm [00s]
+[INFO]  03/15/2017 14:26:22 Examining CompileSpec 2 of 8: quvm_addons (/usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/libs/verification/quvm/addons/src/compile.xml)
+[INFO]  03/15/2017 14:26:22 Processed CompileSpec 2 of 8: quvm_addons [00s]
+[INFO]  03/15/2017 14:26:22 Examining CompileSpec 3 of 8: xl_vip_hvl_sysv_open_kit (/prj/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/qcom_spec/hvl/sysv/compile_open_kit.xml)
+[INFO]  03/15/2017 14:26:22 Processed CompileSpec 3 of 8: xl_vip_hvl_sysv_open_kit [00s]
+[INFO]  03/15/2017 14:26:22 Examining CompileSpec 4 of 8: uvc_qclk_dpi (/usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/verif/sim/env/agents/qclk/env/src/DPI/compile.xml)
+[INFO]  03/15/2017 14:26:22 Processed CompileSpec 4 of 8: uvc_qclk_dpi [00s]
+[INFO]  03/15/2017 14:26:22 Examining CompileSpec 5 of 8: uvc_qclk (/usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/verif/sim/env/agents/qclk/env/src/compile.xml)
+[INFO]  03/15/2017 14:26:22 Processed CompileSpec 5 of 8: uvc_qclk [00s]
+[INFO]  03/15/2017 14:26:22 Examining CompileSpec 6 of 8: uvc_pcounter (/usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/verif/sim/env/src/compile.xml)
+[INFO]  03/15/2017 14:26:22 Processed CompileSpec 6 of 8: uvc_pcounter [00s]
+[INFO]  03/15/2017 14:26:22 Examining CompileSpec 7 of 8: uvc_pcounter_test (/usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/verif/sim/tests/src/compile.xml)
+[INFO]  03/15/2017 14:26:22 Processed CompileSpec 7 of 8: uvc_pcounter_test [00s]
+[INFO]  03/15/2017 14:26:22 Examining CompileSpec 8 of 8: uvc_pcounter_tb (/usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/verif/sim/tb/src/compile.xml)
+[INFO]  03/15/2017 14:26:22 Processed CompileSpec 8 of 8: uvc_pcounter_tb [00s]
+[INFO]  03/15/2017 14:26:22 QDistiller API returned
+[INFO]  03/15/2017 14:26:22 Processing contents for 'uvm' first needed by 'uvc_qclk' (tb)
+[INFO]  03/15/2017 14:26:22 Processing contents for 'quvm_addons' first needed by 'uvc_qclk' (tb)
+[INFO]  03/15/2017 14:26:22 Processing contents for 'xl_vip_hvl_sysv_open_kit' first needed by 'uvc_qclk' (tb)
+[INFO]  03/15/2017 14:26:22 Processing contents for 'uvc_qclk_dpi' first needed by 'uvc_qclk' (tb)
+[INFO]  03/15/2017 14:26:22 Processing contents for 'uvc_qclk' first needed by 'uvc_pcounter' (tb)
+[INFO]  03/15/2017 14:26:22 Processing contents for 'uvc_pcounter' first needed by 'uvc_pcounter_tb' (tb)
+[INFO]  03/15/2017 14:26:22 Processing contents for 'uvc_pcounter_test' first needed by 'uvc_pcounter_tb' (tb)
+[INFO]  03/15/2017 14:26:22 Processing contents for 'uvc_pcounter_tb'  (tb)
+[INFO]  03/15/2017 14:26:22 /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/libs/default/tb/modelsim/6.6g/LINUX64/uvc_pcounter_tb_hier_tb.mk
+[INFO]  03/15/2017 14:26:22 /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/libs/default/tb/modelsim/6.6g/LINUX64/uvc_pcounter_tb_tb.info
 
-[Wed Mar 15 09:27:44 PDT 2017] Make: Generate DUT makefile for pcounter_veloce (hier) ...
-[Wed Mar 15 09:27:44 PDT 2017] Make:  cd /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/libs/default/hdl/modelsim/6.6g/LINUX64 && /pkg/qvmr/bin/qbar_cs2mk    -ignore_missing -ignore_src_filter_spec_err -top pcounter_veloce -type hdl -task sim -spec_path /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/pcounter -spec_path /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/qcom_spec/hdl -spec_path /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b  -tool modelsim -mode hier -prefix dut -block 'pcounter_veloce' -output_dir /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/libs/default/hdl/modelsim/6.6g/LINUX64 -default_work hdl_work -gen_output 1
-[INFO]  03/15/2017 09:27:44 Invoking QDistiller API
-[INFO]  03/15/2017 09:27:44 Processed 131 environment variables [00s]
-[INFO]  03/15/2017 09:27:44 Scanning directory '${WORKSPACE}/pcounter'.
-[INFO]  03/15/2017 09:27:44 Scanning directory '/prj/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/qcom_spec/hdl'.
-[INFO]  03/15/2017 09:27:44 Scanning directory '/prj/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b'.
-[WARN]  03/15/2017 09:27:45 CompileSpec file '/prj/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/qcom_spec/hdl/compile.xml' already parsed. Skipping...
-[WARN]  03/15/2017 09:27:45 CompileSpec file '/prj/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/qcom_spec/hdl/compile_if_hdl.xml' already parsed. Skipping...
-[INFO]  03/15/2017 09:27:45 Examining CompileSpec 1 of 2: xl_vip_hdl (/prj/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/qcom_spec/hdl/compile.xml)
-[INFO]  03/15/2017 09:27:45 Processed CompileSpec 1 of 2: xl_vip_hdl [00s]
-[INFO]  03/15/2017 09:27:45 Examining CompileSpec 2 of 2: pcounter_veloce (/usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/pcounter/src/compile.xml)
-[INFO]  03/15/2017 09:27:45 Processed CompileSpec 2 of 2: pcounter_veloce [00s]
-[INFO]  03/15/2017 09:27:45 QDistiller API returned
-[INFO]  03/15/2017 09:27:45 Processing contents for 'xl_vip_hdl' first needed by 'pcounter_veloce' (dut)
-[INFO]  03/15/2017 09:27:45 Processing contents for 'pcounter_veloce'  (dut)
-[INFO]  03/15/2017 09:27:45 /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/libs/default/hdl/modelsim/6.6g/LINUX64/pcounter_veloce_hier_dut.mk
-[INFO]  03/15/2017 09:27:45 /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/libs/default/hdl/modelsim/6.6g/LINUX64/pcounter_veloce_dut.info
+[Wed Mar 15 14:26:22 PDT 2017] Make: Generate DUT makefile for pcounter_veloce (hier) ...
+[Wed Mar 15 14:26:22 PDT 2017] Make:  cd /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/libs/default/hdl/modelsim/6.6g/LINUX64 && /pkg/qvmr/bin/qbar_cs2mk    -ignore_missing -ignore_src_filter_spec_err -top pcounter_veloce -type hdl -task sim -spec_path /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/pcounter -spec_path /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/qcom_spec/hdl -spec_path /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b  -tool modelsim -mode hier -prefix dut -block 'pcounter_veloce' -output_dir /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/libs/default/hdl/modelsim/6.6g/LINUX64 -default_work hdl_work -gen_output 1
+[INFO]  03/15/2017 14:26:22 Invoking QDistiller API
+[INFO]  03/15/2017 14:26:22 Processed 131 environment variables [00s]
+[INFO]  03/15/2017 14:26:22 Scanning directory '${WORKSPACE}/pcounter'.
+[INFO]  03/15/2017 14:26:22 Scanning directory '/prj/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/qcom_spec/hdl'.
+[INFO]  03/15/2017 14:26:22 Scanning directory '/prj/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b'.
+[WARN]  03/15/2017 14:26:23 CompileSpec file '/prj/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/qcom_spec/hdl/compile.xml' already parsed. Skipping...
+[WARN]  03/15/2017 14:26:23 CompileSpec file '/prj/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/qcom_spec/hdl/compile_if_hdl.xml' already parsed. Skipping...
+[INFO]  03/15/2017 14:26:23 Examining CompileSpec 1 of 2: xl_vip_hdl (/prj/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/qcom_spec/hdl/compile.xml)
+[INFO]  03/15/2017 14:26:23 Processed CompileSpec 1 of 2: xl_vip_hdl [00s]
+[INFO]  03/15/2017 14:26:23 Examining CompileSpec 2 of 2: pcounter_veloce (/usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/pcounter/src/compile.xml)
+[INFO]  03/15/2017 14:26:23 Processed CompileSpec 2 of 2: pcounter_veloce [00s]
+[INFO]  03/15/2017 14:26:23 QDistiller API returned
+[INFO]  03/15/2017 14:26:23 Processing contents for 'xl_vip_hdl' first needed by 'pcounter_veloce' (dut)
+[INFO]  03/15/2017 14:26:23 Processing contents for 'pcounter_veloce'  (dut)
+[INFO]  03/15/2017 14:26:23 /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/libs/default/hdl/modelsim/6.6g/LINUX64/pcounter_veloce_hier_dut.mk
+[INFO]  03/15/2017 14:26:23 /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/libs/default/hdl/modelsim/6.6g/LINUX64/pcounter_veloce_dut.info
 
-[Wed Mar 15 09:27:46 PDT 2017] Make: Create modelsim.ini for modelsim (dut) ...
-[Wed Mar 15 09:27:46 PDT 2017] Make: /bin/cp -rLf /pkg/qvmr/2.10.2/qbar/templates/modelsim/modelsim.ini /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/libs/default/hdl/modelsim/6.6g/LINUX64/modelsim.ini
-[Wed Mar 15 09:27:46 PDT 2017] Make:  cd /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/libs/default/hdl/modelsim/6.6g/LINUX64 && /pkg/qvmr/2.10.2/qbar/scripts/internal/AddModelsimIniOption "[sccom]CppPath=/pkg/modeltech/6.6g/gcc-4.1.2-linux_x86_64/bin/gcc" "[vsim]CppPath=/pkg/modeltech/6.6g/gcc-4.1.2-linux_x86_64/bin/gcc" "[vsim]DpiCppPath=/pkg/modeltech/6.6g/gcc-4.1.2-linux_x86_64/bin/gcc" "[vsim]SolveArrayResizeMax=20000" "[Library]work=/usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/libs/default/tb/modelsim/6.6g/LINUX64/sim_top_work"
+[Wed Mar 15 14:26:24 PDT 2017] Make: Create modelsim.ini for modelsim (dut) ...
+[Wed Mar 15 14:26:24 PDT 2017] Make: /bin/cp -rLf /pkg/qvmr/2.10.2/qbar/templates/modelsim/modelsim.ini /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/libs/default/hdl/modelsim/6.6g/LINUX64/modelsim.ini
+[Wed Mar 15 14:26:24 PDT 2017] Make:  cd /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/libs/default/hdl/modelsim/6.6g/LINUX64 && /pkg/qvmr/2.10.2/qbar/scripts/internal/AddModelsimIniOption "[sccom]CppPath=/pkg/modeltech/6.6g/gcc-4.1.2-linux_x86_64/bin/gcc" "[vsim]CppPath=/pkg/modeltech/6.6g/gcc-4.1.2-linux_x86_64/bin/gcc" "[vsim]DpiCppPath=/pkg/modeltech/6.6g/gcc-4.1.2-linux_x86_64/bin/gcc" "[vsim]SolveArrayResizeMax=20000" "[Library]work=/usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/libs/default/tb/modelsim/6.6g/LINUX64/sim_top_work"
 
-[Wed Mar 15 09:27:46 PDT 2017] Make: Creating hdl_work work library ...
-[Wed Mar 15 09:27:47 PDT 2017] Make: cd /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/libs/default/hdl/modelsim/6.6g/LINUX64 && /pkg/qvmr/bin/Vlib -qc_standalone       hdl_work
+[Wed Mar 15 14:26:24 PDT 2017] Make: Creating hdl_work work library ...
+[Wed Mar 15 14:26:24 PDT 2017] Make: cd /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/libs/default/hdl/modelsim/6.6g/LINUX64 && /pkg/qvmr/bin/Vlib -qc_standalone       hdl_work
 
-[Wed Mar 15 09:27:47 PDT 2017] Make: Mapping hdl_work for modelsim (dut) ...
-[Wed Mar 15 09:27:47 PDT 2017] Make: cd /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/libs/default/hdl/modelsim/6.6g/LINUX64 && /pkg/qvmr/bin/Vmap -qc_standalone    -quiet    hdl_work /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/libs/default/hdl/modelsim/6.6g/LINUX64/hdl_work
+[Wed Mar 15 14:26:25 PDT 2017] Make: Mapping hdl_work for modelsim (dut) ...
+[Wed Mar 15 14:26:25 PDT 2017] Make: cd /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/libs/default/hdl/modelsim/6.6g/LINUX64 && /pkg/qvmr/bin/Vmap -qc_standalone    -quiet    hdl_work /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/libs/default/hdl/modelsim/6.6g/LINUX64/hdl_work
 
-[Wed Mar 15 09:27:47 PDT 2017] Make: Compiling xl_vip_hdl for modelsim 1/1 (dut block 1 of 2) ...
-[Wed Mar 15 09:27:47 PDT 2017] Make:  cd /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/libs/default/hdl/modelsim/6.6g/LINUX64 && /pkg/qvmr/bin/Vlog -qc_standalone    +incdir+/usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/libs/verification/quvm/release/src -mfcu -timescale 1ns/1ps   -sv -cover bcsetf                        +define+TBX_MODE +define+TBX_WORKAROUND +define+TBX_XL_SIM_MODE -f ./xl_vip_hdl_hier_dut_sv.f -work hdl_work   
+[Wed Mar 15 14:26:25 PDT 2017] Make: Compiling xl_vip_hdl for modelsim 1/1 (dut block 1 of 2) ...
+[Wed Mar 15 14:26:25 PDT 2017] Make:  cd /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/libs/default/hdl/modelsim/6.6g/LINUX64 && /pkg/qvmr/bin/Vlog -qc_standalone    +incdir+/usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/libs/verification/quvm/release/src -mfcu -timescale 1ns/1ps   -sv -cover bcsetf                        +define+TBX_MODE +define+TBX_WORKAROUND +define+TBX_XL_SIM_MODE -f ./xl_vip_hdl_hier_dut_sv.f -work hdl_work   
 QuestaSim-64 vlog 6.6g Compiler 2012.05 May 23 2012
 -- Compiling module XlRngTransactor
 -- Compiling module XlVeraSystemClock
@@ -146,10 +146,11 @@ Top level modules:
 	XlAhbSlaveTransactor
 	XlAhbMonitor
 
-[Wed Mar 15 09:27:48 PDT 2017] Make: Compiling pcounter_veloce for modelsim 1/1 (dut block 2 of 2) ...
-[Wed Mar 15 09:27:48 PDT 2017] Make:  cd /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/libs/default/hdl/modelsim/6.6g/LINUX64 && /pkg/qvmr/bin/Vlog -qc_standalone    +incdir+/usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/libs/verification/quvm/release/src -mfcu -timescale 1ns/1ps   -sv -cover bcsetf                        -f ./pcounter_veloce_hier_dut_sv.f -work hdl_work   
+[Wed Mar 15 14:26:26 PDT 2017] Make: Compiling pcounter_veloce for modelsim 1/1 (dut block 2 of 2) ...
+[Wed Mar 15 14:26:26 PDT 2017] Make:  cd /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/libs/default/hdl/modelsim/6.6g/LINUX64 && /pkg/qvmr/bin/Vlog -qc_standalone    +incdir+/usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/libs/verification/quvm/release/src -mfcu -timescale 1ns/1ps   -sv -cover bcsetf                        -f ./pcounter_veloce_hier_dut_sv.f -work hdl_work   
 QuestaSim-64 vlog 6.6g Compiler 2012.05 May 23 2012
 -- Compiling module pcounter
+-- Compiling interface dut_if
 -- Compiling module pcounter_wrapper
 -- Compiling module test_bench
 -- Compiling module ClkRstDriver
@@ -160,40 +161,42 @@ QuestaSim-64 vlog 6.6g Compiler 2012.05 May 23 2012
 -- Compiling module clock_bfm
 
 Top level modules:
+	pcounter_wrapper
 	test_bench
 	ProgClkDriver
+	clock_bfm
 
-[Wed Mar 15 09:27:49 PDT 2017] Make: Create modelsim.ini for modelsim (tb) ...
-[Wed Mar 15 09:27:49 PDT 2017] Make: /bin/cp -rLf /pkg/qvmr/2.10.2/qbar/templates/modelsim/modelsim.ini /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/libs/default/tb/modelsim/6.6g/LINUX64/modelsim.ini
-[Wed Mar 15 09:27:49 PDT 2017] Make:  cd /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/libs/default/tb/modelsim/6.6g/LINUX64 && /pkg/qvmr/2.10.2/qbar/scripts/internal/AddModelsimIniOption "[sccom]CppPath=/pkg/modeltech/6.6g/gcc-4.1.2-linux_x86_64/bin/gcc" "[vsim]CppPath=/pkg/modeltech/6.6g/gcc-4.1.2-linux_x86_64/bin/gcc" "[vsim]DpiCppPath=/pkg/modeltech/6.6g/gcc-4.1.2-linux_x86_64/bin/gcc" "[vsim]SolveArrayResizeMax=20000" "[Library]work=/usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/libs/default/tb/modelsim/6.6g/LINUX64/sim_top_work"
+[Wed Mar 15 14:26:27 PDT 2017] Make: Create modelsim.ini for modelsim (tb) ...
+[Wed Mar 15 14:26:27 PDT 2017] Make: /bin/cp -rLf /pkg/qvmr/2.10.2/qbar/templates/modelsim/modelsim.ini /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/libs/default/tb/modelsim/6.6g/LINUX64/modelsim.ini
+[Wed Mar 15 14:26:27 PDT 2017] Make:  cd /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/libs/default/tb/modelsim/6.6g/LINUX64 && /pkg/qvmr/2.10.2/qbar/scripts/internal/AddModelsimIniOption "[sccom]CppPath=/pkg/modeltech/6.6g/gcc-4.1.2-linux_x86_64/bin/gcc" "[vsim]CppPath=/pkg/modeltech/6.6g/gcc-4.1.2-linux_x86_64/bin/gcc" "[vsim]DpiCppPath=/pkg/modeltech/6.6g/gcc-4.1.2-linux_x86_64/bin/gcc" "[vsim]SolveArrayResizeMax=20000" "[Library]work=/usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/libs/default/tb/modelsim/6.6g/LINUX64/sim_top_work"
 
-[Wed Mar 15 09:27:49 PDT 2017] Make: Mapping hdl_work for modelsim (sim_top) ...
-[Wed Mar 15 09:27:49 PDT 2017] Make: cd /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/libs/default/tb/modelsim/6.6g/LINUX64 && /pkg/qvmr/bin/Vmap -qc_standalone    -quiet    hdl_work /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/libs/default/hdl/modelsim/6.6g/LINUX64/hdl_work
+[Wed Mar 15 14:26:27 PDT 2017] Make: Mapping hdl_work for modelsim (sim_top) ...
+[Wed Mar 15 14:26:27 PDT 2017] Make: cd /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/libs/default/tb/modelsim/6.6g/LINUX64 && /pkg/qvmr/bin/Vmap -qc_standalone    -quiet    hdl_work /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/libs/default/hdl/modelsim/6.6g/LINUX64/hdl_work
 
-[Wed Mar 15 09:27:49 PDT 2017] Make: Creating tb_work work library ...
-[Wed Mar 15 09:27:49 PDT 2017] Make: cd /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/libs/default/tb/modelsim/6.6g/LINUX64 && /pkg/qvmr/bin/Vlib -qc_standalone       tb_work
+[Wed Mar 15 14:26:27 PDT 2017] Make: Creating tb_work work library ...
+[Wed Mar 15 14:26:27 PDT 2017] Make: cd /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/libs/default/tb/modelsim/6.6g/LINUX64 && /pkg/qvmr/bin/Vlib -qc_standalone       tb_work
 
-[Wed Mar 15 09:27:50 PDT 2017] Make: Mapping tb_work for modelsim (tb) ...
-[Wed Mar 15 09:27:50 PDT 2017] Make: cd /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/libs/default/tb/modelsim/6.6g/LINUX64 && /pkg/qvmr/bin/Vmap -qc_standalone    -quiet    tb_work /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/libs/default/tb/modelsim/6.6g/LINUX64/tb_work
+[Wed Mar 15 14:26:27 PDT 2017] Make: Mapping tb_work for modelsim (tb) ...
+[Wed Mar 15 14:26:28 PDT 2017] Make: cd /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/libs/default/tb/modelsim/6.6g/LINUX64 && /pkg/qvmr/bin/Vmap -qc_standalone    -quiet    tb_work /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/libs/default/tb/modelsim/6.6g/LINUX64/tb_work
 
-[Wed Mar 15 09:27:50 PDT 2017] Make: Compiling uvm for modelsim 1/1 (tb block 1 of 8) ...
-[Wed Mar 15 09:27:50 PDT 2017] Make:  cd /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/libs/default/tb/modelsim/6.6g/LINUX64 && /pkg/qvmr/bin/Vlog -qc_standalone    +incdir+/usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/libs/verification/quvm/release/src -mfcu -timescale 1ns/1ps   -sv -incr               +incdir+/usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/libs/verification/quvm/release/src/. /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/libs/verification/quvm/release/src/uvm_pkg.sv -work tb_work   
+[Wed Mar 15 14:26:28 PDT 2017] Make: Compiling uvm for modelsim 1/1 (tb block 1 of 8) ...
+[Wed Mar 15 14:26:28 PDT 2017] Make:  cd /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/libs/default/tb/modelsim/6.6g/LINUX64 && /pkg/qvmr/bin/Vlog -qc_standalone    +incdir+/usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/libs/verification/quvm/release/src -mfcu -timescale 1ns/1ps   -sv -incr               +incdir+/usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/libs/verification/quvm/release/src/. /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/libs/verification/quvm/release/src/uvm_pkg.sv -work tb_work   
 QuestaSim-64 vlog 6.6g Compiler 2012.05 May 23 2012
 -- Compiling package uvm_pkg
 
 Top level modules:
 	--none--
 
-[Wed Mar 15 09:27:53 PDT 2017] Make: Compiling quvm_addons for modelsim 1/1 (tb block 2 of 8) ...
-[Wed Mar 15 09:27:53 PDT 2017] Make:  cd /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/libs/default/tb/modelsim/6.6g/LINUX64 && /pkg/qvmr/bin/Vlog -qc_standalone    +incdir+/usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/libs/verification/quvm/release/src -mfcu -timescale 1ns/1ps   -sv -incr               +incdir+/usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/libs/verification/quvm/addons/src/. /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/libs/verification/quvm/addons/src/quvm_addons_pkg.sv -work tb_work   
+[Wed Mar 15 14:26:30 PDT 2017] Make: Compiling quvm_addons for modelsim 1/1 (tb block 2 of 8) ...
+[Wed Mar 15 14:26:30 PDT 2017] Make:  cd /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/libs/default/tb/modelsim/6.6g/LINUX64 && /pkg/qvmr/bin/Vlog -qc_standalone    +incdir+/usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/libs/verification/quvm/release/src -mfcu -timescale 1ns/1ps   -sv -incr               +incdir+/usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/libs/verification/quvm/addons/src/. /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/libs/verification/quvm/addons/src/quvm_addons_pkg.sv -work tb_work   
 QuestaSim-64 vlog 6.6g Compiler 2012.05 May 23 2012
 -- Compiling package quvm_addons_pkg
 
 Top level modules:
 	--none--
 
-[Wed Mar 15 09:27:53 PDT 2017] Make: Compiling xl_vip_hvl_sysv_open_kit for modelsim 1/1 (tb block 3 of 8) ...
-[Wed Mar 15 09:27:54 PDT 2017] Make:  cd /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/libs/default/tb/modelsim/6.6g/LINUX64 && /pkg/qvmr/bin/Vlog -qc_standalone    +incdir+/usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/libs/verification/quvm/release/src -mfcu -timescale 1ns/1ps   -sv -incr               +incdir+/pkg/qct/software/mentor/tbx/tbx_v2.4.3.0/questa/hdl +incdir+/pkg/qct/software/mentor/tbx/tbx_v2.4.3.0/questa/hdl/xtlm +incdir+/usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib -f ./xl_vip_hvl_sysv_open_kit_hier_tb_sv.f -work tb_work   
+[Wed Mar 15 14:26:30 PDT 2017] Make: Compiling xl_vip_hvl_sysv_open_kit for modelsim 1/1 (tb block 3 of 8) ...
+[Wed Mar 15 14:26:30 PDT 2017] Make:  cd /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/libs/default/tb/modelsim/6.6g/LINUX64 && /pkg/qvmr/bin/Vlog -qc_standalone    +incdir+/usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/libs/verification/quvm/release/src -mfcu -timescale 1ns/1ps   -sv -incr               +incdir+/pkg/qct/software/mentor/tbx/tbx_v2.4.3.0/questa/hdl +incdir+/pkg/qct/software/mentor/tbx/tbx_v2.4.3.0/questa/hdl/xtlm +incdir+/usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib -f ./xl_vip_hvl_sysv_open_kit_hier_tb_sv.f -work tb_work   
 QuestaSim-64 vlog 6.6g Compiler 2012.05 May 23 2012
 -- Compiling package tbx_event_pkg
 -- Compiling package xtlm_base_pkg
@@ -208,50 +211,50 @@ QuestaSim-64 vlog 6.6g Compiler 2012.05 May 23 2012
 Top level modules:
 	--none--
 
-[Wed Mar 15 09:27:54 PDT 2017] Make: Compiling uvc_qclk_dpi for modelsim 1/1 (tb block 4 of 8) ...
-[Wed Mar 15 09:27:54 PDT 2017] Make:  cd /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/libs/default/tb/modelsim/6.6g/LINUX64 && /pkg/qvmr/bin/Sccom -qc_standalone    -fPIC -DQUESTA -I/pkg/qct/software/modeltech/6.6g/include                  -g -Wall -fPIC -DSC_INCLUDE_DYNAMIC_PROCESSES -I. -I/pkg/qct/software/modeltech/6.6g/include -I/usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/verif/sim/env/agents/qclk/env/src/DPI/qclk_proxy_dpi.cpp -work tb_work   
+[Wed Mar 15 14:26:31 PDT 2017] Make: Compiling uvc_qclk_dpi for modelsim 1/1 (tb block 4 of 8) ...
+[Wed Mar 15 14:26:31 PDT 2017] Make:  cd /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/libs/default/tb/modelsim/6.6g/LINUX64 && /pkg/qvmr/bin/Sccom -qc_standalone    -fPIC -DQUESTA -I/pkg/qct/software/modeltech/6.6g/include                  -g -Wall -fPIC -DSC_INCLUDE_DYNAMIC_PROCESSES -I. -I/pkg/qct/software/modeltech/6.6g/include -I/usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/verif/sim/env/agents/qclk/env/src/DPI/qclk_proxy_dpi.cpp -work tb_work   
 
 QuestaSim-64 sccom 6.6g compiler 2012.05 May 23 2012
 
-[Wed Mar 15 09:27:55 PDT 2017] Make: Compiling uvc_qclk for modelsim 1/1 (tb block 5 of 8) ...
-[Wed Mar 15 09:27:55 PDT 2017] Make:  cd /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/libs/default/tb/modelsim/6.6g/LINUX64 && /pkg/qvmr/bin/Vlog -qc_standalone    +incdir+/usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/libs/verification/quvm/release/src -mfcu -timescale 1ns/1ps   -sv -incr               +incdir+/usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/verif/sim/env/agents/qclk/env/src/. +incdir+/usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/verif/sim/env/agents/qclk/env/src/../sequence_lib/src +incdir+/usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/verif/sim/env/agents/qclk/env/src/qclk_pkg.sv -work tb_work   
+[Wed Mar 15 14:26:32 PDT 2017] Make: Compiling uvc_qclk for modelsim 1/1 (tb block 5 of 8) ...
+[Wed Mar 15 14:26:32 PDT 2017] Make:  cd /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/libs/default/tb/modelsim/6.6g/LINUX64 && /pkg/qvmr/bin/Vlog -qc_standalone    +incdir+/usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/libs/verification/quvm/release/src -mfcu -timescale 1ns/1ps   -sv -incr               +incdir+/usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/verif/sim/env/agents/qclk/env/src/. +incdir+/usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/verif/sim/env/agents/qclk/env/src/../sequence_lib/src +incdir+/usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/verif/sim/env/agents/qclk/env/src/qclk_pkg.sv -work tb_work   
 QuestaSim-64 vlog 6.6g Compiler 2012.05 May 23 2012
 -- Compiling package qclk_pkg
 
 Top level modules:
 	--none--
 
-[Wed Mar 15 09:27:56 PDT 2017] Make: Compiling uvc_pcounter for modelsim 1/1 (tb block 6 of 8) ...
-[Wed Mar 15 09:27:56 PDT 2017] Make:  cd /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/libs/default/tb/modelsim/6.6g/LINUX64 && /pkg/qvmr/bin/Vlog -qc_standalone    +incdir+/usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/libs/verification/quvm/release/src -mfcu -timescale 1ns/1ps   -sv -incr               +incdir+/usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/libs/verification/uvcs/qclk/env/src +incdir+/usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/verif/sim/env/src/. +incdir+/usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/verif/sim/env/src/../sequence_lib/src /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/verif/sim/env/src/pcounter_pkg.sv -work tb_work   
+[Wed Mar 15 14:26:32 PDT 2017] Make: Compiling uvc_pcounter for modelsim 1/1 (tb block 6 of 8) ...
+[Wed Mar 15 14:26:32 PDT 2017] Make:  cd /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/libs/default/tb/modelsim/6.6g/LINUX64 && /pkg/qvmr/bin/Vlog -qc_standalone    +incdir+/usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/libs/verification/quvm/release/src -mfcu -timescale 1ns/1ps   -sv -incr               +incdir+/usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/libs/verification/uvcs/qclk/env/src +incdir+/usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/verif/sim/env/src/. +incdir+/usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/verif/sim/env/src/../sequence_lib/src /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/verif/sim/env/src/pcounter_pkg.sv -work tb_work   
 QuestaSim-64 vlog 6.6g Compiler 2012.05 May 23 2012
 -- Compiling package pcounter_pkg
 
 Top level modules:
 	--none--
 
-[Wed Mar 15 09:27:56 PDT 2017] Make: Compiling uvc_pcounter_test for modelsim 1/1 (tb block 7 of 8) ...
-[Wed Mar 15 09:27:56 PDT 2017] Make:  cd /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/libs/default/tb/modelsim/6.6g/LINUX64 && /pkg/qvmr/bin/Vlog -qc_standalone    +incdir+/usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/libs/verification/quvm/release/src -mfcu -timescale 1ns/1ps   -sv -incr               +incdir+/usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/verif/sim/tests/src/. /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/verif/sim/tests/src/pcounter_test_pkg.sv -work tb_work   
+[Wed Mar 15 14:26:33 PDT 2017] Make: Compiling uvc_pcounter_test for modelsim 1/1 (tb block 7 of 8) ...
+[Wed Mar 15 14:26:33 PDT 2017] Make:  cd /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/libs/default/tb/modelsim/6.6g/LINUX64 && /pkg/qvmr/bin/Vlog -qc_standalone    +incdir+/usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/libs/verification/quvm/release/src -mfcu -timescale 1ns/1ps   -sv -incr               +incdir+/usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/verif/sim/tests/src/. /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/verif/sim/tests/src/pcounter_test_pkg.sv -work tb_work   
 QuestaSim-64 vlog 6.6g Compiler 2012.05 May 23 2012
 -- Compiling package pcounter_test_pkg
 
 Top level modules:
 	--none--
 
-[Wed Mar 15 09:27:57 PDT 2017] Make: Compiling uvc_pcounter_tb for modelsim 1/1 (tb block 8 of 8) ...
-[Wed Mar 15 09:27:57 PDT 2017] Make:  cd /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/libs/default/tb/modelsim/6.6g/LINUX64 && /pkg/qvmr/bin/Vlog -qc_standalone    +incdir+/usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/libs/verification/quvm/release/src -mfcu -timescale 1ns/1ps   -sv -incr               +incdir+/usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/verif/sim/tb/src/. /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/verif/sim/tb/src/tb_top.sv -work tb_work   
+[Wed Mar 15 14:26:34 PDT 2017] Make: Compiling uvc_pcounter_tb for modelsim 1/1 (tb block 8 of 8) ...
+[Wed Mar 15 14:26:34 PDT 2017] Make:  cd /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/libs/default/tb/modelsim/6.6g/LINUX64 && /pkg/qvmr/bin/Vlog -qc_standalone    +incdir+/usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/libs/verification/quvm/release/src -mfcu -timescale 1ns/1ps   -sv -incr               +incdir+/usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/verif/sim/tb/src/. /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/verif/sim/tb/src/tb_top.sv -work tb_work   
 QuestaSim-64 vlog 6.6g Compiler 2012.05 May 23 2012
 -- Compiling module tb_top
 
 Top level modules:
 	tb_top
 
-[Wed Mar 15 09:27:58 PDT 2017] Make: Sccom linking ...
-[Wed Mar 15 09:27:58 PDT 2017] Make:  cd /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/libs/default/tb/modelsim/6.6g/LINUX64 && /pkg/qvmr/bin/Sccom -qc_standalone    -link             -lib tb_work -work tb_work
+[Wed Mar 15 14:26:35 PDT 2017] Make: Sccom linking ...
+[Wed Mar 15 14:26:35 PDT 2017] Make:  cd /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/libs/default/tb/modelsim/6.6g/LINUX64 && /pkg/qvmr/bin/Sccom -qc_standalone    -link             -lib tb_work -work tb_work
 
 QuestaSim-64 sccom 6.6g compiler 2012.05 May 23 2012
 
-[Wed Mar 15 09:27:58 PDT 2017] Make: Export DPI ...
-[Wed Mar 15 09:27:58 PDT 2017] Make:  cd /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/libs/default/tb/modelsim/6.6g/LINUX64 && /pkg/qvmr/bin/Vsim -qc_standalone    -permit_unmatched_virtual_intf -cpppath /pkg/modeltech/6.6g/gcc-4.1.2-linux_x86_64/bin/gcc -t ns   -dpiexportobj dpi -L hdl_work -L tb_work hdl_work.test_bench tb_work.tb_top -c
+[Wed Mar 15 14:26:35 PDT 2017] Make: Export DPI ...
+[Wed Mar 15 14:26:35 PDT 2017] Make:  cd /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/libs/default/tb/modelsim/6.6g/LINUX64 && /pkg/qvmr/bin/Vsim -qc_standalone    -permit_unmatched_virtual_intf -cpppath /pkg/modeltech/6.6g/gcc-4.1.2-linux_x86_64/bin/gcc -t ns   -dpiexportobj dpi -L hdl_work -L tb_work hdl_work.test_bench tb_work.tb_top -c
 Reading /afs/localcell/cm/GV2/sysname/pkg.@sys/qct/software/modeltech/6.6g/tcl/vsim/pref.tcl 
 
 # 6.6g
@@ -259,13 +262,6 @@ Reading /afs/localcell/cm/GV2/sysname/pkg.@sys/qct/software/modeltech/6.6g/tcl/v
 # vsim -L hdl_work -L tb_work -dpiexportobj dpi -permit_unmatched_virtual_intf -c -t ns hdl_work.test_bench tb_work.tb_top 
 # Loading sv_std.std
 # Loading hdl_work.test_bench
-# Loading hdl_work.clock_bfm
-# Loading hdl_work.ClkRstDriver
-# Loading hdl_work.XlClockAdvancer
-# Loading hdl_work.XlResetGenerator
-# Loading hdl_work.ProgClockGater
-# Loading hdl_work.pcounter_wrapper
-# Loading hdl_work.pcounter
 # Loading tb_work.XlSvPkg
 # Loading tb_work.uvm_pkg
 # Loading tb_work.quvm_addons_pkg
@@ -273,32 +269,44 @@ Reading /afs/localcell/cm/GV2/sysname/pkg.@sys/qct/software/modeltech/6.6g/tcl/v
 # Loading tb_work.pcounter_pkg
 # Loading tb_work.pcounter_test_pkg
 # Loading tb_work.tb_top
+# Loading hdl_work.dut_if
+# Loading hdl_work.clock_bfm
+# Loading hdl_work.ClkRstDriver
+# Loading hdl_work.XlClockAdvancer
+# Loading hdl_work.XlResetGenerator
+# Loading hdl_work.ProgClockGater
+# Loading hdl_work.pcounter_wrapper
+# Loading hdl_work.pcounter
 # Loading hdl_work.ProgClkDriver_INIT0_WithInitialDelay
+# ** Warning: (vsim-3017) /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/verif/sim/tb/src/tb_top.sv(41): [TFMPC] - Too few port connections. Expected 2, found 0.
+#         Region: /tb_top/dut_if1
+# ** Warning: (vsim-3722) /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/verif/sim/tb/src/tb_top.sv(41): [TFMPC] - Missing connection for port 'clk'.
+# ** Warning: (vsim-3722) /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/verif/sim/tb/src/tb_top.sv(41): [TFMPC] - Missing connection for port 'rst'.
 # ** Warning: (vsim-3017) /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/pcounter/src/clock_bfm.sv(613): [TFMPC] - Too few port connections. Expected 3, found 2.
-#         Region: /test_bench/u_clock/intf1
+#         Region: /tb_top/u_clock/intf1
 # ** Warning: (vsim-3722) /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/pcounter/src/clock_bfm.sv(613): [TFMPC] - Missing connection for port 'clock'.
-# Compiling /var/tmp/xiaoshao@vl-xiaoshao-gridsdcb_dpi_32461/exportwrapper.c
+# Compiling /var/tmp/xiaoshao@vl-xiaoshao-gridsdcb_dpi_126042/exportwrapper.c
 # Successfully generated DPI export object 'dpi.so'.
 
-[Wed Mar 15 09:28:01 PDT 2017] Make: Compiling DPI-C file: /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/libs/verification/quvm/release/src/dpi/uvm_dpi.cc ...
-[Wed Mar 15 09:28:01 PDT 2017] Make: cd /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/simland/standalone/default/misc/LINUX64/6.6g && /pkg/qvmr/bin/Modelsim_gcc -qc_standalone        -DQUESTA -c -fPIC /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/libs/verification/quvm/release/src/dpi/uvm_dpi.cc -Bsymbolic -I/pkg/qct/software/modeltech/6.6g/include -o /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/simland/standalone/default/misc/LINUX64/6.6g/uvm_dpi.o
+[Wed Mar 15 14:26:37 PDT 2017] Make: Compiling DPI-C file: /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/libs/verification/quvm/release/src/dpi/uvm_dpi.cc ...
+[Wed Mar 15 14:26:37 PDT 2017] Make: cd /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/simland/standalone/default/misc/LINUX64/6.6g && /pkg/qvmr/bin/Modelsim_gcc -qc_standalone        -DQUESTA -c -fPIC /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/libs/verification/quvm/release/src/dpi/uvm_dpi.cc -Bsymbolic -I/pkg/qct/software/modeltech/6.6g/include -o /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/simland/standalone/default/misc/LINUX64/6.6g/uvm_dpi.o
 
-[Wed Mar 15 09:28:01 PDT 2017] Make: Link DPI library ...
-[Wed Mar 15 09:28:01 PDT 2017] Make: cd /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/simland/standalone/default/misc/LINUX64/6.6g && /pkg/qvmr/bin/Modelsim_g++ -qc_standalone         /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/simland/standalone/default/misc/LINUX64/6.6g/uvm_dpi.o -fPIC -shared -Bsymbolic -o /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/simland/standalone/default/misc/LINUX64/6.6g/dpi_lib.so
+[Wed Mar 15 14:26:37 PDT 2017] Make: Link DPI library ...
+[Wed Mar 15 14:26:37 PDT 2017] Make: cd /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/simland/standalone/default/misc/LINUX64/6.6g && /pkg/qvmr/bin/Modelsim_g++ -qc_standalone         /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/simland/standalone/default/misc/LINUX64/6.6g/uvm_dpi.o -fPIC -shared -Bsymbolic -o /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/simland/standalone/default/misc/LINUX64/6.6g/dpi_lib.so
 
-[Wed Mar 15 09:28:01 PDT 2017] Make: Create modelsim.ini for modelsim (sim) ...
-[Wed Mar 15 09:28:01 PDT 2017] Make: /bin/cp -rLf /pkg/qvmr/2.10.2/qbar/templates/modelsim/modelsim.ini /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/simland/standalone/default/0.pcounter_test_qclk_change_clock_period/modelsim/modelsim.ini
-[Wed Mar 15 09:28:01 PDT 2017] Make:  cd /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/simland/standalone/default/0.pcounter_test_qclk_change_clock_period/modelsim && /pkg/qvmr/2.10.2/qbar/scripts/internal/AddModelsimIniOption "[sccom]CppPath=/pkg/modeltech/6.6g/gcc-4.1.2-linux_x86_64/bin/gcc" "[vsim]CppPath=/pkg/modeltech/6.6g/gcc-4.1.2-linux_x86_64/bin/gcc" "[vsim]DpiCppPath=/pkg/modeltech/6.6g/gcc-4.1.2-linux_x86_64/bin/gcc" "[vsim]SolveArrayResizeMax=20000" "[Library]work=/usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/libs/default/tb/modelsim/6.6g/LINUX64/sim_top_work"
+[Wed Mar 15 14:26:38 PDT 2017] Make: Create modelsim.ini for modelsim (sim) ...
+[Wed Mar 15 14:26:38 PDT 2017] Make: /bin/cp -rLf /pkg/qvmr/2.10.2/qbar/templates/modelsim/modelsim.ini /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/simland/standalone/default/0.pcounter_test_qclk_change_clock_period/modelsim/modelsim.ini
+[Wed Mar 15 14:26:38 PDT 2017] Make:  cd /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/simland/standalone/default/0.pcounter_test_qclk_change_clock_period/modelsim && /pkg/qvmr/2.10.2/qbar/scripts/internal/AddModelsimIniOption "[sccom]CppPath=/pkg/modeltech/6.6g/gcc-4.1.2-linux_x86_64/bin/gcc" "[vsim]CppPath=/pkg/modeltech/6.6g/gcc-4.1.2-linux_x86_64/bin/gcc" "[vsim]DpiCppPath=/pkg/modeltech/6.6g/gcc-4.1.2-linux_x86_64/bin/gcc" "[vsim]SolveArrayResizeMax=20000" "[Library]work=/usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/libs/default/tb/modelsim/6.6g/LINUX64/sim_top_work"
 
-[Wed Mar 15 09:28:01 PDT 2017] Make: Mapping hdl_work for modelsim (sim) ...
-[Wed Mar 15 09:28:01 PDT 2017] Make: cd /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/simland/standalone/default/0.pcounter_test_qclk_change_clock_period/modelsim && /pkg/qvmr/bin/Vmap -qc_standalone    -quiet    hdl_work /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/libs/default/hdl/modelsim/6.6g/LINUX64/hdl_work
+[Wed Mar 15 14:26:38 PDT 2017] Make: Mapping hdl_work for modelsim (sim) ...
+[Wed Mar 15 14:26:38 PDT 2017] Make: cd /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/simland/standalone/default/0.pcounter_test_qclk_change_clock_period/modelsim && /pkg/qvmr/bin/Vmap -qc_standalone    -quiet    hdl_work /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/libs/default/hdl/modelsim/6.6g/LINUX64/hdl_work
 
-[Wed Mar 15 09:28:02 PDT 2017] Make: Mapping tb_work for modelsim (sim) ...
-[Wed Mar 15 09:28:02 PDT 2017] Make: cd /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/simland/standalone/default/0.pcounter_test_qclk_change_clock_period/modelsim && /pkg/qvmr/bin/Vmap -qc_standalone    -quiet    tb_work /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/libs/default/tb/modelsim/6.6g/LINUX64/tb_work
+[Wed Mar 15 14:26:38 PDT 2017] Make: Mapping tb_work for modelsim (sim) ...
+[Wed Mar 15 14:26:38 PDT 2017] Make: cd /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/simland/standalone/default/0.pcounter_test_qclk_change_clock_period/modelsim && /pkg/qvmr/bin/Vmap -qc_standalone    -quiet    tb_work /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/libs/default/tb/modelsim/6.6g/LINUX64/tb_work
 
-[Wed Mar 15 09:28:02 PDT 2017] Make: TBX link ...
-[Wed Mar 15 09:28:02 PDT 2017] Make:  cd /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/simland/standalone/default/0.pcounter_test_qclk_change_clock_period/modelsim && /pkg/qvmr/bin/Vmap -qc_standalone    -quiet    work /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/libs/default/tb/modelsim/6.6g/LINUX64/tb_work
-[Wed Mar 15 09:28:02 PDT 2017] Make:  cd /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/simland/standalone/default/0.pcounter_test_qclk_change_clock_period/modelsim && /pkg/qvmr/bin/Tbxsvlink -qc_standalone    /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlSvAxiMasterTransactor.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlSvBridgeSync.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlSvMemoryTransactor.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlSlaveTransactor.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlMasterTransactor.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/ConvertVpiSimTime.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlSvClockAdvancer.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlAhbMasterTransactor.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlSvAxiSlaveTransactor.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlSvSlaveTransactor.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlSvResetGenerator.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlVipExportStubs.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlMemoryTransactor.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlEdgeDetector.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlSvAhbSlaveTransactor.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlAxiMasterTransactor.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlSyscBridgeSync.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlSvGpioTransactor.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlSvTimeAdvancer.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlSyscResetGenerator.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlAxiSlaveTransactor.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlSvEdgeDetector.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlBridgeSync.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlTransactor.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlSyscMasterTransactor.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlSyscTimeAdvancer.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlGpioTransactor.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlSvAhbMasterTransactor.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlAhbSlaveTransactor.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlSyscClockAdvancer.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlSvMasterTransactor.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/sim_threads.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlSyscEdgeDetector.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlVipUtilityClasses.o -puresim -verbose   -lib tb_work -work tb_work /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/libs/default/tb/modelsim/6.6g/LINUX64/dpi.o
+[Wed Mar 15 14:26:39 PDT 2017] Make: TBX link ...
+[Wed Mar 15 14:26:39 PDT 2017] Make:  cd /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/simland/standalone/default/0.pcounter_test_qclk_change_clock_period/modelsim && /pkg/qvmr/bin/Vmap -qc_standalone    -quiet    work /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/libs/default/tb/modelsim/6.6g/LINUX64/tb_work
+[Wed Mar 15 14:26:39 PDT 2017] Make:  cd /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/simland/standalone/default/0.pcounter_test_qclk_change_clock_period/modelsim && /pkg/qvmr/bin/Tbxsvlink -qc_standalone    /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlSvAxiMasterTransactor.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlSvBridgeSync.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlSvMemoryTransactor.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlSlaveTransactor.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlMasterTransactor.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/ConvertVpiSimTime.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlSvClockAdvancer.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlAhbMasterTransactor.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlSvAxiSlaveTransactor.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlSvSlaveTransactor.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlSvResetGenerator.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlVipExportStubs.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlMemoryTransactor.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlEdgeDetector.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlSvAhbSlaveTransactor.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlAxiMasterTransactor.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlSyscBridgeSync.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlSvGpioTransactor.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlSvTimeAdvancer.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlSyscResetGenerator.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlAxiSlaveTransactor.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlSvEdgeDetector.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlBridgeSync.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlTransactor.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlSyscMasterTransactor.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlSyscTimeAdvancer.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlGpioTransactor.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlSvAhbMasterTransactor.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlAhbSlaveTransactor.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlSyscClockAdvancer.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlSvMasterTransactor.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/sim_threads.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlSyscEdgeDetector.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlVipUtilityClasses.o -puresim -verbose   -lib tb_work -work tb_work /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/libs/default/tb/modelsim/6.6g/LINUX64/dpi.o
 
 /pkg/qct/software/modeltech/6.6g/bin/vlog -work tb_work +incdir+/pkg/qct/software/mentor/tbx/tbx_v2.4.3.0/questa/hdl /pkg/qct/software/mentor/tbx/tbx_v2.4.3.0/questa/hdl/TbxSvManager.sv
 /pkg/qct/software/modeltech/6.6g/bin/sccom -work tb_work    -DTBX_puresim /pkg/qct/software/mentor/tbx/tbx_v2.4.3.0/questa/include/TbxSvManager.cxx /pkg/qct/software/mentor/tbx/tbx_v2.4.3.0/scemi_pipe_sim/include/scemi_pipe_sc_threads.cxx /pkg/qct/software/mentor/tbx/tbx_v2.4.3.0/questa/include/xtlm_packer.cxx
@@ -308,17 +316,17 @@ Reading /afs/localcell/cm/GV2/sysname/pkg.@sys/qct/software/modeltech/6.6g/tcl/v
 /pkg/qct/software/modeltech/6.6g/bin/vsim +nowarnTSCALE -c     -dpiexportobj tbx_internal_DumpExport tb_work.tbx_internal_DumpExport_Defns_SIM -permit_unmatched_virtual_intf 
 /pkg/qct/software/modeltech/6.6g/bin/sccom -work tb_work -link -u scemi_pipe_hdl_try_receive   /pkg/qct/software/mentor/tbx/tbx_v2.4.3.0/questa/lib/linux64_el30_gnu4/libxtlmquesta.a tbx_internal_DumpExport.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlSvAxiMasterTransactor.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlSvBridgeSync.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlSvMemoryTransactor.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlSlaveTransactor.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlMasterTransactor.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/ConvertVpiSimTime.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlSvClockAdvancer.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlAhbMasterTransactor.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlSvAxiSlaveTransactor.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlSvSlaveTransactor.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlSvResetGenerator.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlVipExportStubs.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlMemoryTransactor.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlEdgeDetector.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlSvAhbSlaveTransactor.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlAxiMasterTransactor.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlSyscBridgeSync.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlSvGpioTransactor.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlSvTimeAdvancer.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlSyscResetGenerator.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlAxiSlaveTransactor.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlSvEdgeDetector.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlBridgeSync.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlTransactor.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlSyscMasterTransactor.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlSyscTimeAdvancer.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlGpioTransactor.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlSvAhbMasterTransactor.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlAhbSlaveTransactor.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlSyscClockAdvancer.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlSvMasterTransactor.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/sim_threads.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlSyscEdgeDetector.o /usr/local/projects/qct/evals/veloce/software/iSolveTransactors/xl_vip2.4.0.2b/xl_vip/lib/linux64/XlVipUtilityClasses.o -lib tb_work /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/libs/default/tb/modelsim/6.6g/LINUX64/dpi.o
 
-[Wed Mar 15 09:28:07 PDT 2017] Make: Create run-time sim command file ...
-[Wed Mar 15 09:28:07 PDT 2017] Make:  /pkg/qvmr/2.10.2/qbar/scripts/internal/ConcatCmdFiles  SIM='modelsim' __VERBOSITY='VERBOSE' __SIM_MODE='batch'  SAVE_SIM_COVERAGE_DIR='/usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/simland/standalone/default/0.pcounter_test_qclk_change_clock_period/modelsim/coverage/modelsim' SAVE_SIM_COVERAGE='1' SPECMAN_COVERAGE='0' QVMR_HOME='/pkg/qvmr/2.10.2'                          __TEST_DIR_STR='0.pcounter_test_qclk_change_clock_period' TEST_NAME='pcounter_test_qclk_change_clock_period' MTI_UCDB_TESTNAME='0.pcounter_test_qclk_change_clock_period'  QVMR_DUT_DIR='/usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/libs/default/hdl/modelsim/6.6g/LINUX64' /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/simland/standalone/default/0.pcounter_test_qclk_change_clock_period/modelsim/sim.do  /pkg/qvmr/2.10.2/qbar/templates/common/sim.do
+[Wed Mar 15 14:26:43 PDT 2017] Make: Create run-time sim command file ...
+[Wed Mar 15 14:26:43 PDT 2017] Make:  /pkg/qvmr/2.10.2/qbar/scripts/internal/ConcatCmdFiles  SIM='modelsim' __VERBOSITY='VERBOSE' __SIM_MODE='batch'  SAVE_SIM_COVERAGE_DIR='/usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/simland/standalone/default/0.pcounter_test_qclk_change_clock_period/modelsim/coverage/modelsim' SAVE_SIM_COVERAGE='1' SPECMAN_COVERAGE='0' QVMR_HOME='/pkg/qvmr/2.10.2'                          __TEST_DIR_STR='0.pcounter_test_qclk_change_clock_period' TEST_NAME='pcounter_test_qclk_change_clock_period' MTI_UCDB_TESTNAME='0.pcounter_test_qclk_change_clock_period'  QVMR_DUT_DIR='/usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/libs/default/hdl/modelsim/6.6g/LINUX64' /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/simland/standalone/default/0.pcounter_test_qclk_change_clock_period/modelsim/sim.do  /pkg/qvmr/2.10.2/qbar/templates/common/sim.do
 
-[Wed Mar 15 09:28:07 PDT 2017] Make: Create aux. directories for simulation ...
+[Wed Mar 15 14:26:43 PDT 2017] Make: Create aux. directories for simulation ...
 
-[Wed Mar 15 09:28:07 PDT 2017] Make: Dump run-time environment ...
-[Wed Mar 15 09:28:07 PDT 2017] Make:  env > /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/simland/standalone/default/0.pcounter_test_qclk_change_clock_period/modelsim/presim_env.txt
-[Wed Mar 15 09:28:07 PDT 2017] Make:  /pkg/qvmr/2.10.2/qbar/scripts/internal/gen_replay_vanila.pl /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/simland/standalone/default/0.pcounter_test_qclk_change_clock_period/modelsim '/pkg/qvmr/bin/Vsim -qc_standalone    -permit_unmatched_virtual_intf -cpppath /pkg/modeltech/6.6g/gcc-4.1.2-linux_x86_64/bin/gcc -t ns   -sclib tb_work -lib tb_work -L hdl_work -L tb_work -c -do sim.do -coverage -assertdebug -sv_seed 1   -sv_root /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/simland/standalone/default/misc/LINUX64/6.6g -sv_lib dpi_lib  +UVM_TESTNAME=pcounter_test_qclk_change_clock_period +UVM_USE_OVM_RUN_SEMANTIC  hdl_work.test_bench tb_work.tb_top tb_work.TbxSvManager'
+[Wed Mar 15 14:26:43 PDT 2017] Make: Dump run-time environment ...
+[Wed Mar 15 14:26:43 PDT 2017] Make:  env > /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/simland/standalone/default/0.pcounter_test_qclk_change_clock_period/modelsim/presim_env.txt
+[Wed Mar 15 14:26:43 PDT 2017] Make:  /pkg/qvmr/2.10.2/qbar/scripts/internal/gen_replay_vanila.pl /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/simland/standalone/default/0.pcounter_test_qclk_change_clock_period/modelsim '/pkg/qvmr/bin/Vsim -qc_standalone    -permit_unmatched_virtual_intf -cpppath /pkg/modeltech/6.6g/gcc-4.1.2-linux_x86_64/bin/gcc -t ns   -sclib tb_work -lib tb_work -L hdl_work -L tb_work -c -do sim.do -coverage -assertdebug -sv_seed 1   -sv_root /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/simland/standalone/default/misc/LINUX64/6.6g -sv_lib dpi_lib  +UVM_TESTNAME=pcounter_test_qclk_change_clock_period +UVM_USE_OVM_RUN_SEMANTIC  hdl_work.test_bench tb_work.tb_top tb_work.TbxSvManager'
 
-[Wed Mar 15 09:28:07 PDT 2017] Make: Run simulation ...
-[Wed Mar 15 09:28:07 PDT 2017] Make:  cd /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/simland/standalone/default/0.pcounter_test_qclk_change_clock_period/modelsim && /pkg/qvmr/bin/Vsim -qc_standalone    -permit_unmatched_virtual_intf -cpppath /pkg/modeltech/6.6g/gcc-4.1.2-linux_x86_64/bin/gcc -t ns   -sclib tb_work -lib tb_work -L hdl_work -L tb_work -c -do sim.do -coverage -assertdebug -sv_seed 1   -sv_root /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/simland/standalone/default/misc/LINUX64/6.6g -sv_lib dpi_lib  +UVM_TESTNAME=pcounter_test_qclk_change_clock_period +UVM_USE_OVM_RUN_SEMANTIC  hdl_work.test_bench tb_work.tb_top tb_work.TbxSvManager
+[Wed Mar 15 14:26:43 PDT 2017] Make: Run simulation ...
+[Wed Mar 15 14:26:43 PDT 2017] Make:  cd /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/simland/standalone/default/0.pcounter_test_qclk_change_clock_period/modelsim && /pkg/qvmr/bin/Vsim -qc_standalone    -permit_unmatched_virtual_intf -cpppath /pkg/modeltech/6.6g/gcc-4.1.2-linux_x86_64/bin/gcc -t ns   -sclib tb_work -lib tb_work -L hdl_work -L tb_work -c -do sim.do -coverage -assertdebug -sv_seed 1   -sv_root /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/simland/standalone/default/misc/LINUX64/6.6g -sv_lib dpi_lib  +UVM_TESTNAME=pcounter_test_qclk_change_clock_period +UVM_USE_OVM_RUN_SEMANTIC  hdl_work.test_bench tb_work.tb_top tb_work.TbxSvManager
 Reading /afs/localcell/cm/GV2/sysname/pkg.@sys/qct/software/modeltech/6.6g/tcl/vsim/pref.tcl 
 
 # 6.6g
@@ -336,13 +344,6 @@ Reading /afs/localcell/cm/GV2/sysname/pkg.@sys/qct/software/modeltech/6.6g/tcl/v
 # //
 # Loading sv_std.std
 # Loading hdl_work.test_bench
-# Loading hdl_work.clock_bfm
-# Loading hdl_work.ClkRstDriver
-# Loading hdl_work.XlClockAdvancer
-# Loading hdl_work.XlResetGenerator
-# Loading hdl_work.ProgClockGater
-# Loading hdl_work.pcounter_wrapper
-# Loading hdl_work.pcounter
 # Loading tb_work.XlSvPkg
 # Loading tb_work.uvm_pkg
 # Loading tb_work.quvm_addons_pkg
@@ -350,15 +351,27 @@ Reading /afs/localcell/cm/GV2/sysname/pkg.@sys/qct/software/modeltech/6.6g/tcl/v
 # Loading tb_work.pcounter_pkg
 # Loading tb_work.pcounter_test_pkg
 # Loading tb_work.tb_top
+# Loading hdl_work.dut_if
+# Loading hdl_work.clock_bfm
+# Loading hdl_work.ClkRstDriver
+# Loading hdl_work.XlClockAdvancer
+# Loading hdl_work.XlResetGenerator
+# Loading hdl_work.ProgClockGater
+# Loading hdl_work.pcounter_wrapper
+# Loading hdl_work.pcounter
 # Loading tb_work.TbxSvManager
 # Loading hdl_work.ProgClkDriver_INIT0_WithInitialDelay
 # Loading /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/libs/default/tb/modelsim/6.6g/LINUX64/tb_work/_sc/linux_x86_64_gcc-4.1.2/systemc.so
 # Loading /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/libs/default/tb/modelsim/6.6g/LINUX64/tb_work.TbxScManager
+# ** Warning: (vsim-3017) /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/verif/sim/tb/src/tb_top.sv(41): [TFMPC] - Too few port connections. Expected 2, found 0.
+#         Region: /tb_top/dut_if1
+# ** Warning: (vsim-3722) /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/verif/sim/tb/src/tb_top.sv(41): [TFMPC] - Missing connection for port 'clk'.
+# ** Warning: (vsim-3722) /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/verif/sim/tb/src/tb_top.sv(41): [TFMPC] - Missing connection for port 'rst'.
 # ** Warning: (vsim-3017) /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/pcounter/src/clock_bfm.sv(613): [TFMPC] - Too few port connections. Expected 3, found 2.
-#         Region: /test_bench/u_clock/intf1
+#         Region: /tb_top/u_clock/intf1
 # ** Warning: (vsim-3722) /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/pcounter/src/clock_bfm.sv(613): [TFMPC] - Missing connection for port 'clock'.
-# Compiling /var/tmp/xiaoshao@vl-xiaoshao-gridsdcb_dpi_33025/exportwrapper.c
-# Loading /var/tmp/xiaoshao@vl-xiaoshao-gridsdcb_dpi_33025/exportwrapper.so
+# Compiling /var/tmp/xiaoshao@vl-xiaoshao-gridsdcb_dpi_126606/exportwrapper.c
+# Loading /var/tmp/xiaoshao@vl-xiaoshao-gridsdcb_dpi_126606/exportwrapper.so
 # Loading /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/simland/standalone/default/misc/LINUX64/6.6g/dpi_lib.so
 # do sim.do 
 # modelsim
@@ -381,12 +394,12 @@ Reading /afs/localcell/cm/GV2/sysname/pkg.@sys/qct/software/modeltech/6.6g/tcl/v
 # Sourcing /pkg/qvmr/2.10.2/qbar/templates/modelsim/vcd.tcl ...
 # Sourcing /pkg/qvmr/2.10.2/qbar/templates/modelsim/evcd.tcl ...
 # Sourcing /pkg/qvmr/2.10.2/qbar/templates/modelsim/coverage.tcl ...
-# [Wed Mar 15 09:28:18 PDT 2017] coverage.tcl: coverage save -onexit /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/simland/standalone/default/0.pcounter_test_qclk_change_clock_period/modelsim/coverage/modelsim/code.cdb -testname 0.pcounter_test_qclk_change_clock_period
-# [Wed Mar 15 09:28:18 PDT 2017] on_start.tcl: onbreak { resume }
-# [Wed Mar 15 09:28:18 PDT 2017] on_start.tcl: onfinish {stop}
+# [Wed Mar 15 14:26:54 PDT 2017] coverage.tcl: coverage save -onexit /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/simland/standalone/default/0.pcounter_test_qclk_change_clock_period/modelsim/coverage/modelsim/code.cdb -testname 0.pcounter_test_qclk_change_clock_period
+# [Wed Mar 15 14:26:54 PDT 2017] on_start.tcl: onbreak { resume }
+# [Wed Mar 15 14:26:54 PDT 2017] on_start.tcl: onfinish {stop}
 # Sourcing /pkg/qvmr/2.10.2/qbar/templates/modelsim/run.tcl ...
 # Sourcing /pkg/qvmr/2.10.2/qbar/templates/common/dump_times.tcl ...
-# [Wed Mar 15 09:28:18 PDT 2017] run.tcl: run -all
+# [Wed Mar 15 14:26:54 PDT 2017] run.tcl: run -all
 # ----------------------------------------------------------------
 # UVM-1.1b
 # (C) 2007-2012 Mentor Graphics Corporation
@@ -411,12 +424,16 @@ Reading /afs/localcell/cm/GV2/sysname/pkg.@sys/qct/software/modeltech/6.6g/tcl/v
 # ( 0 ns)---------------------------------Current value =              x--------------------------------------
 # void dpii_initialize_component_handle(const char *hdlPath, svBitVecVAl *handle)
 # hdlPath = test_bench.u_clock.intf1.p1.clkDriver.i1 
+# ERROR: ClkRsetDriver: Scope binding at test_bench.u_clock.intf1.p1.clkDriver.i1 failed.
 # void dpii_initialize_component_handle(const char *hdlPath, svBitVecVAl *handle)
 # hdlPath = test_bench.u_clock.intf1.clkGater 
+# ERROR: ClkRsetDriver: Scope binding at test_bench.u_clock.intf1.clkGater failed.
 # UVM_INFO /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/verif/sim/env/agents/qclk/env/src/./qclk_proxy.sv(251) @ 0 ns: reporter [qclk_proxy] Creating proxy class for ClockAdvancer test_bench.u_clock.intf1.clockAdvancer
 # 
+# XL-VIP ERROR: XlClockAdvancer: Scope binding at test_bench.u_clock.intf1.clockAdvancer failed.
 # UVM_INFO /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/verif/sim/env/agents/qclk/env/src/./qclk_proxy.sv(258) @ 0 ns: reporter [qclk_proxy] Creating proxy class for ResetGenerator test_bench.u_clock.intf1.resetGenerator
 # 
+# XL-VIP ERROR: XlResetGenerator: Scope binding at test_bench.u_clock.intf1.resetGenerator failed.
 # UVM_INFO /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/verif/sim/env/src/./pcounter_env.sv(151) @ 0 ns: env_h [pcounter_env] Set config object in pcounter_env
 # UVM_INFO /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/verif/sim/env/agents/qclk/env/src/./qclk_agent.sv(112) @ 0 ns: env_h.m_qclk_agent_h [qclk_agent] Constructing the analysis export port 
 # UVM_INFO /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/verif/sim/env/agents/qclk/env/src/./qclk_agent.sv(117) @ 0 ns: env_h.m_qclk_agent_h [qclk_agent] Constructing the qclk_driver
@@ -427,12 +444,16 @@ Reading /afs/localcell/cm/GV2/sysname/pkg.@sys/qct/software/modeltech/6.6g/tcl/v
 # UVM_INFO /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/verif/sim/tests/src/./pcounter_test_base.sv(127) @ 0 ns: uvm_test_top [pcounter_test_qclk_change_clock_period] test message MEDIUM (basic test progression)
 # void dpii_initialize_component_handle(const char *hdlPath, svBitVecVAl *handle)
 # hdlPath = test_bench.u_clock.intf1.p1.clkDriver.i1 
+# ERROR: ClkRsetDriver: Scope binding at test_bench.u_clock.intf1.p1.clkDriver.i1 failed.
 # void dpii_initialize_component_handle(const char *hdlPath, svBitVecVAl *handle)
 # hdlPath = test_bench.u_clock.intf1.clkGater 
+# ERROR: ClkRsetDriver: Scope binding at test_bench.u_clock.intf1.clkGater failed.
 # UVM_INFO /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/verif/sim/env/agents/qclk/env/src/./qclk_proxy.sv(251) @ 0 ns: reporter [qclk_proxy] Creating proxy class for ClockAdvancer test_bench.u_clock.intf1.clockAdvancer
 # 
+# XL-VIP ERROR: XlClockAdvancer: Scope binding at test_bench.u_clock.intf1.clockAdvancer failed.
 # UVM_INFO /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/verif/sim/env/agents/qclk/env/src/./qclk_proxy.sv(258) @ 0 ns: reporter [qclk_proxy] Creating proxy class for ResetGenerator test_bench.u_clock.intf1.resetGenerator
 # 
+# XL-VIP ERROR: XlResetGenerator: Scope binding at test_bench.u_clock.intf1.resetGenerator failed.
 # UVM_INFO /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/verif/sim/env/src/./pcounter_env.sv(151) @ 0 ns: uvm_test_top.m_env_h [pcounter_env] Set config object in pcounter_env
 # UVM_INFO /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/verif/sim/env/agents/qclk/env/src/./qclk_agent.sv(112) @ 0 ns: uvm_test_top.m_env_h.m_qclk_agent_h [qclk_agent] Constructing the analysis export port 
 # UVM_INFO /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/verif/sim/env/agents/qclk/env/src/./qclk_agent.sv(117) @ 0 ns: uvm_test_top.m_env_h.m_qclk_agent_h [qclk_agent] Constructing the qclk_driver
@@ -486,20 +507,20 @@ Reading /afs/localcell/cm/GV2/sysname/pkg.@sys/qct/software/modeltech/6.6g/tcl/v
 # Stopped at /usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/libs/verification/quvm/release/src/base/uvm_root.svh line 408 
 # Sourcing /pkg/qvmr/2.10.2/qbar/templates/modelsim/on_exit.tcl ...
 # Sourcing /pkg/qvmr/2.10.2/qbar/templates/modelsim/quit.tcl ...
-# [Wed Mar 15 09:28:19 PDT 2017] quit.tcl: quit -f
+# [Wed Mar 15 14:26:55 PDT 2017] quit.tcl: quit -f
 
 
 
 -------------------------------------------------------------------------------
  Please enter the following into your lesson to get credit for the lab
 
-                  xiaoshao_uvm1_Y[WZ                                              
+                  xiaoshao_uvm1_YW[Z                                              
 
 -----------------------------------------------------------------------------------
 
  #### SIM DONE ####
 
-[Wed Mar 15 09:28:21 PDT 2017] Make: 'sim' done.  See log file [/usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/simland/standalone/default/0.pcounter_test_qclk_change_clock_period/modelsim/session.log]
+[Wed Mar 15 14:26:56 PDT 2017] Make: 'sim' done.  See log file [/usr2/xiaoshao/uvm_training_labs/lab6/uvm_lab1/unmanaged/qvmr/xiaoshao/simland/standalone/default/0.pcounter_test_qclk_change_clock_period/modelsim/session.log]
 
 
 Info: Done.

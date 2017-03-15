@@ -5,9 +5,13 @@
 
 `timescale 1ns/1ps
 
+
+
 module pcounter_wrapper(
   input         clk,
-  input         rst
+  input         rst,
+  input [39:0]  data_in,
+  output [39:0] data_out
 );
 
 // pragma attribute pcounter partition_module_xrtl  
@@ -19,14 +23,14 @@ module pcounter_wrapper(
 //  logic [9:0] 	cfg_rdata_sig;
 //  logic [9:0] 	counter_o_sig;
 //  logic [1:0] 	curr_state_o_sig;
-  logic [39:0] data_in_sig;
-  logic [39:0] data_out_sig;
+//  logic [39:0] data_in_sig;
+// logic [39:0] data_out_sig;
 
   pcounter pcounter_i(
     .clk(clk), 
     .rst(rst),
-    .data_in(data_in_sig),
-    .data_out(data_out_sig)
+    .data_in(data_in),
+    .data_out(data_out)
  //   .cfg_enable(cfg_enable_sig),
  //   .cfg_rd_wr(cfg_rd_wr_sig),
  //   .cfg_addr(cfg_addr_sig),

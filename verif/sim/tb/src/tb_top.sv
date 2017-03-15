@@ -37,12 +37,32 @@ module tb_top;
   import pcounter_pkg::*;
 
   pcounter_env env_h;
-
+  
+  dut_if dut_if1();
+  
+//Test added by Xiaoqiang 
+//Instantiate DUT and connect to interface  
+   wire clk;
+   wire rst;
+   
+   clock_bfm u_clock(
+			.clk(clk),
+			.rst(rst));
+			
+  pcounter_wrapper dut(
+			.clk(clk),
+			.rst(rst),
+			.data_in(dut_if1.data_in),
+			.data_out(dut_if1.data_out)
+			);
 
   initial begin
     $timeformat(-9, 0, " ns", 5); // show time in ns
-
-    // Create the env and Run the test
+//Test added by Xiaoqiang
+// Place the interface into the UVM configuration database
+   uvm_config_db#(virtual dut_if)::set(null, "*", "dut_vif", dut_if1);
+    
+	// Create the env and Run the test
     env_h = pcounter_env::type_id::create("env_h", null);
     run_test();
 
